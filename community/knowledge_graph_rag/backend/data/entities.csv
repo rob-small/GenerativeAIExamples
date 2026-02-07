@@ -1,109 +1,65 @@
 entity_id,entity_name,entity_type
-0,Mark Zuckerberg,PERSON
-1,Meta,ORG
-2,NVIDIAs Blackwell,PRODUCT
-3,Blackwell GPU,PRODUCT
-4,Google,ORG
-5,Google DeepMind,ORG
-6,Sam Altman,PERSON
-7,OpenAI,ORG
-8,Blackwell,PRODUCT
-9,NVIDIA,ORG
-10,GPU,PRODUCT
-11,Jensen Huang,PERSON
-12,Generative AI,CONCEPT
-13,NVIDIA Blackwell platform,PRODUCT
-14,organizations,ORG
-15,real-time generative AI,TOOL
-16,trillion-parameter large language models,PRODUCT
-17,up to 25x less cost,METRIC
-18,energy consumption,METRIC
-19,Amazon Web Services,ORG
-20,Dell Technologies,ORG
-21,Microsoft,ORG
-22,Oracle,ORG
-23,Tesla,ORG
-24,xAI,ORG
-25,Satya Nadella,PERSON
-26,Advanced Infrastructure,TOOL
-27,GB200 Grace Blackwell Processor,PRODUCT
-28,Datacenters,INSTITUTION
-29,Promise Of AI,CONCEPT
-30,Blackwell GPU architecture,PRODUCT
-31,Transformative technologies,CONCEPT
-32,Industry opportunities,CONCEPT
-33,Grace Blackwell Superchips,PRODUCT
-34,Project Ceiba,EVENT
-35,AWS,ORG/CLOUD
-36,AWS Nitro System,PRODUCT
-37,Michael Dell,PERSON
-38,Next-Generation of Accelerated Products and Services,PRODUCT
-39,Blackwell-architecture GPUs,PRODUCT
-40,2-reticle limit GPU dies,TOOL
-41,Second-Generation Transformer Engine,PRODUCT
-42,New Blackwell GPU,PRODUCT
-43,New Tensor Cores,PRODUCT
-44,TensorRT- LLM Compiler,TOOL
-45,New Accelerators,PRODUCT
-46,open-source Llama models,PRODUCT
-47,AI,CONCEPT
-48,next generation of Meta AI and consumer products,PRODUCT
-49,breakthrough capabilities,CONCEPT
-50,Google Cloud,ORG
-51,future discoveries,CONCEPT
-52,Massive Performance Leaps,METRIC
-53,Deliver Leading-Edge Models,PRODUCT
-54,AI Compute,TOOL
-55,1993,GPE
-56,PC Gaming Market,SECTOR
-57,Computer Graphics,FIELD
-58,Modern AI,FIELD
-59,Industrial Digitalization,FIELD
-60,,Unknown
-61,Industry,SECTOR
-62,Industrial Revolution,CONCEPT
-63,Dynamic Companies,ORG
-64,its predecessor,PRODUCT
-65,Global,GPE
-66,Customers AI Workloads,CONCEPT
-67,NVIDIA GPUs,PRODUCT
-68,Promise Of AI Real,CONCEPT
-69,Organizations,ORG
-70,six transformative technologies,CONCEPT
-71,Data processing,FIELD
-72,Engineering simulation,FIELD
-73,Electronic design automation,FIELD
-74,Computer-aided drug design,FIELD
-75,Quantum computing,FIELD
-76,NVIDIA’s AI research and development,ACTIVITY
-77,advanced virtualization,TOOL
-78,ultra-fast Elastic Fabric Adapter networking,TOOL
-79,Run NVIDIA GPUs,ACTIVITY
-80,Technology Industry,SECTOR
-81,Smarter Systems,CONCEPT
-82,Reliable Systems,CONCEPT
-83,Efficient Systems,CONCEPT
-84,Shaping the Future of Technology,CONCEPT
-85,Customer Innovation,CONCEPT
-86,208 billion transistors,METRIC
-87,Custom-built 4NP TSMC process,TECH
-88,10 TB/second chip-to-chip link,TOOL
-89,"Single, unified GPU",TOOL
-90,New micro-tensor scaling support,TOOL
-91,NVIDIA TensorRT™-LLM and NeMo Megatron frameworks,TOOL
-92,Double support,METRIC
-93,AI Models,CONCEPT
-94,NVLink,TOOL
-95,Resilience Technologies,TOOL
-96,Trillion-Parameter-Scale AI Models,CONCEPT
-97,LLM Inference,CONCEPT
-98,LLM Inference Operating Cost,METRIC
-99,LLM Energy Consumption,METRIC
-100,Breakthroughs in Data Processing,CONCEPT
-101,Engineering Simulation,CONCEPT
-102,Electronic Design Automation,CONCEPT
-103,Computer-Aided Drug Design,CONCEPT
-104,Quantum Computing,CONCEPT
-105,Every Major Cloud Provider,ORG
-106,Server Maker,ORG
-107,Leading AI Company,ORG
+0,Accelerator Workshop for GenAI,EVENT
+1,Thousands of other organizations,ORG
+2,GenAI,CONCEPT
+3,Business,ORG
+4,Emerging Technologies,CONCEPT
+5,GenAI Readiness Assessment Dimensions,CONCEPT
+6,Accelerator Workshop,ORG/INST
+7,Dell Technologies Services,ORG
+8,Dell Accelerator Workshop for Generative AI,TOOL
+9,GenAI Journey,CONCEPT
+10,full portfolio,METRIC
+11,GenAI solutions,PRODUCT
+12,Dell Inc.,ORG
+13,August 2023,TIME
+14,May 2023,TIME
+15,November 2023,TIME
+16,Dell,ORG
+17,You,PERSON
+18,77%,METRIC
+19,Companies,ORG
+20,Top Challenges,EVENT
+21,GenAI1,CONCEPT
+22,39%,METRIC
+23,expertise and skills,CONCEPT
+24,31%,METRIC
+25,data quality,CONCEPT
+26,Mounting use case opportunities,CONCEPT
+27,Customer operations,CONCEPT
+28,Content creation,CONCEPT
+29,Software development,CONCEPT
+30,Sales & marketing,CONCEPT
+31,Dell Experts,PER
+32,Your Team,ORG
+33,Point of View,CONCEPT
+34,Vision,CONCEPT
+35,AS-IS TO-BE Methodology,CONCEPT
+36,Interviews,TOOL
+37,Existing Environment,CONCEPT
+38,Challenges,CONCEPT
+39,Opportunities,CONCEPT
+40,Consensus,CONCEPT
+41,Executive Overview,CONCEPT
+42,Community,GPE
+43,Largest Impact,EVENT
+44,all,OTHER
+45,Artificial Intelligence Field,FIELD
+46,AI Industry,FIELD
+47,Business Leaders,PERSON
+48,GenAI journey,CONCEPT
+49,GenAI lifecycle,LIFECYCLE
+50,specific business needs,BUSINESS
+51,specific use cases,USECASE
+52,"1 ESG, Beyond the Hype: Real-world investments, use cases and concerns",EVENT
+53,"KPMG, Generative AI: From Buzz to Business Value",EVENT
+54,Accelerator Workshop for GenAI brochure,DOCUMENT
+55,full-stack solution for model customization,TOOL
+56,high value GenAI use cases tailored to your business needs,USE_CASE
+57,GenAI operations,FIELD
+58,internal GenAI skills & capabilities,FIELD
+59,Full-stack scalable GenAI solutions,TOOL
+60,Deep expertise in GenAI & data analytics,FIELD
+61,One provider across the lifecycle,FIELD
+62,Your GenAI objectives,CONCEPT
+63,GenAI impact on business,METRIC
