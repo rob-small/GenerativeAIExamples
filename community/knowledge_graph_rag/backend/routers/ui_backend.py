@@ -23,6 +23,7 @@ from utils.lc_graph import process_documents, save_triples_to_csvs
 from vectorstore.search import SearchHandler
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
 from dotenv import load_dotenv
+from utils.langsmith_setup import get_langsmith_callbacks
 load_dotenv()
 
 
@@ -57,7 +58,8 @@ async def get_models():
 async def process_documents_endpoint(request: DirectoryRequest, background_tasks: BackgroundTasks):
     directory = request.directory
     model_id = request.model_id
-    llm = ChatNVIDIA(model=model_id)
+    callbacks = get_langsmith_callbacks()
+    llm = ChatNVIDIA(model=model_id, callbacks=callbacks)
 
     # Save progress updates in a temporary file
     progress_file = "progress.txt"

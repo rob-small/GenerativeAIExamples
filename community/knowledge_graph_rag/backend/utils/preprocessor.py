@@ -19,6 +19,7 @@ import json
 import ast
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
 from langchain.prompts import PromptTemplate
+from utils.langsmith_setup import get_langsmith_run_config
 
 if not os.environ.get("NVIDIA_API_KEY", "").startswith("nvapi-"):
     nvapi_key = getpass.getpass("Enter your NVIDIA API key: ")
@@ -50,6 +51,7 @@ def process_response(triplets_str):
     return json_triplets
 
 def extract_triples(text, llm):
+    run_config = get_langsmith_run_config(tags=["extract_triples"])
     prompt = ChatPromptTemplate.from_messages(
     [("system", """Note that the entities should not be generic, numerical, or temporal (like dates or percentages). Entities must be classified into the following categories:
 - ORG: Organizations other than government or regulatory bodies
@@ -78,7 +80,7 @@ From this text, your output Must be in python list of tuple with each tuple made
                         ```
       The output structure must not be anything apart from above OUTPUT structure. NEVER REPLY WITH any element as NAN. Just leave out the triple if you think it's not worth including or does not have an object. Do not provide ANY additional explanations, if it's not a Python parseable list of tuples, you will be penalized severely. Make the best possible decisions given the context."""), ("user", "{input}")])
     chain = prompt | llm | StrOutputParser()
-    response = chain.invoke({"input": text})
+    response = chain.invoke({"input": text}, config=run_config)
     print(response)
     return process_response(response)
 
@@ -116,11 +118,12 @@ def judge_prompt_template():
     return prompt_template
 
 def generate_qa_pair(text, llm):
+    run_config = get_langsmith_run_config(tags=["generate_qa_pair"])
     prompt = ChatPromptTemplate.from_messages(
     [("system", """You are a synthetic data generation model responsible for creating high quality question and answer pairs from text content provided to you. Given the paragraph as an input, create one high quality and highly complex question answer pair. The question should require a large portion of the context and multi-step advanced reasoning to answer. Make sure it is something a human may ask while reading this document. The answer should be highly detailed and comprehensive. Your output should be in a json format of one question answer pair. Restrict the question to the context information provided. Do not print anything else. The output MUST be JSON parseable."""), ("user", "{input}")])
     # llm = ChatNVIDIA(model="nvidia/nemotron-4-340b-instruct")
     chain = prompt | llm | StrOutputParser()
-    response = chain.invoke({"input": text})
+    response = chain.invoke({"input": text}, config=run_config)
     print(response)
     try:
         parsed_response = json.loads(response)

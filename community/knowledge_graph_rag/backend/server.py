@@ -33,6 +33,9 @@ def _load_dotenv():
 
 _load_dotenv()
 
+from utils.langsmith_setup import init_langsmith_env
+init_langsmith_env()
+
 import subprocess
 from fastapi import FastAPI
 from routers import ui_backend,chat,evaluation,visualization

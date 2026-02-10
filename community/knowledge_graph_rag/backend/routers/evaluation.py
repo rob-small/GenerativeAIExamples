@@ -43,6 +43,7 @@ from ragas.metrics import faithfulness, answer_relevancy, context_precision, con
 from ragas import evaluate
 from ragas.embeddings import LangchainEmbeddingsWrapper
 from ragas.llms import LangchainLLMWrapper
+from utils.langsmith_setup import get_langsmith_callbacks, get_langsmith_run_config
 
 
 logging.basicConfig(level=logging.INFO)
@@ -140,6 +141,7 @@ def _get_graphml_path() -> str:
 
 
 def get_text_RAG_response(question, llm):
+    run_config = get_langsmith_run_config(tags=["evaluation", "text_rag"])
     chain = prompt_template | llm | StrOutputParser()
     search_handler = SearchHandler(_get_collection_name(), use_bge_m3=True, use_reranker=True)
     res = search_handler.search_and_rerank(question, k=5)
@@ -147,12 +149,17 @@ def get_text_RAG_response(question, llm):
     context_return = []
     if res:
         context_return = [item.text for item in res]
-    answer = chain.invoke("Context: " + context + "\n\nUser query: " + question)
+    answer = chain.invoke("Context: " + context + "\n\nUser query: " + question, config=run_config)
     return answer, context_return
 
 def get_graph_RAG_response(question, llm):
+    run_config = get_langsmith_run_config(tags=["evaluation", "graph_rag"])
     chain = prompt_template | llm | StrOutputParser()
-    entity_string = llm.invoke("""Return a JSON with a single key 'entities' and list of entities within this user query. Each element in your list MUST BE part of the user's query. Do not provide any explanation. If the returned list is not parseable in Python, you will be heavily penalized. For example, input: 'What is the difference between Apple and Google?' output: ['Apple', 'Google']. Always follow this output format. Here's the user query: """ + question)
+    entity_string = llm.invoke(
+        """Return a JSON with a single key 'entities' and list of entities within this user query. Each element in your list MUST BE part of the user's query. Do not provide any explanation. If the returned list is not parseable in Python, you will be heavily penalized. For example, input: 'What is the difference between Apple and Google?' output: ['Apple', 'Google']. Always follow this output format. Here's the user query: """
+        + question,
+        config=run_config,
+    )
     graphml_path = _get_graphml_path()
     
     G = nx.read_graphml(graphml_path)
@@ -173,12 +180,17 @@ def get_graph_RAG_response(question, llm):
             context_return = ["no relationship found"]
     except:
         context = "No graph triples were available to extract from the knowledge graph. Always provide a disclaimer if you know the answer to the user's question, since it is not grounded in the knowledge you are provided from the graph."
-    answer = chain.invoke("Context: " + context + "\n\nUser query: " + question)
+    answer = chain.invoke("Context: " + context + "\n\nUser query: " + question, config=run_config)
     return answer, context_return
 
 def get_combined_RAG_response(question, llm):
+    run_config = get_langsmith_run_config(tags=["evaluation", "combined_rag"])
     chain = prompt_template | llm | StrOutputParser()
-    entity_string = llm.invoke("""Return a JSON with a single key 'entities' and list of entities within this user query. Each element in your list MUST BE part of the user's query. Do not provide any explanation. If the returned list is not parseable in Python, you will be heavily penalized. For example, input: 'What is the difference between Apple and Google?' output: ['Apple', 'Google']. Always follow this output format. Here's the user query: """ + question)
+    entity_string = llm.invoke(
+        """Return a JSON with a single key 'entities' and list of entities within this user query. Each element in your list MUST BE part of the user's query. Do not provide any explanation. If the returned list is not parseable in Python, you will be heavily penalized. For example, input: 'What is the difference between Apple and Google?' output: ['Apple', 'Google']. Always follow this output format. Here's the user query: """
+        + question,
+        config=run_config,
+    )
     graphml_path = _get_graphml_path()
     G = nx.read_graphml(graphml_path)
     graph = NetworkxEntityGraph(G)
@@ -201,7 +213,7 @@ def get_combined_RAG_response(question, llm):
                 context_return.append(trip)
     except Exception as e:
         context = "No graph triples were available to extract from the knowledge graph. Always provide a disclaimer if you know the answer to the user's question, since it is not grounded in the knowledge you are provided from the graph."
-    answer = chain.invoke("Context: " + context + "\n\nUser query: " + question)
+    answer = chain.invoke("Context: " + context + "\n\nUser query: " + question, config=run_config)
     return answer, context_return
 
 @router.post("/process-documents/")
@@ -209,7 +221,8 @@ async def process_documents_endpoint(request: ProcessRequest, background_tasks: 
     logger.info("Check")
     directory = request.directory
     model_id = request.model_id
-    llm = ChatNVIDIA(model=model_id)
+    callbacks = get_langsmith_callbacks()
+    llm = ChatNVIDIA(model=model_id, callbacks=callbacks)
     logger.info(f"Processing documents in directory: {directory} with model: {model_id}")
     try:
         documents, results = process_documents(directory, llm, triplets=False, chunk_size=2000, chunk_overlap=200)
@@ -230,7 +243,8 @@ async def create_qa_pairs(request: QAPairsRequest):
     
     num_data = request.num_data
     model_id = request.model_id
-    llm = ChatNVIDIA(model=model_id)
+    callbacks = get_langsmith_callbacks()
+    llm = ChatNVIDIA(model=model_id, callbacks=callbacks)
 
     current_directory = os.getcwd()
     data_directory = os.path.join(os.getcwd(), 'data')
@@ -297,7 +311,8 @@ async def run_evaluation(request: QARequest):
     questions_list = request.questions_list
     answers_list = request.answers_list
     model_id = request.model_id
-    llm = ChatNVIDIA(model=model_id)  # or any other default model
+    callbacks = get_langsmith_callbacks()
+    llm = ChatNVIDIA(model=model_id, callbacks=callbacks)  # or any other default model
 
     
     async def evaluate():
@@ -358,7 +373,7 @@ def get_RAGAS_evaluation(question, rag_answer, context, gt_answer, llm, embeddin
         "ground_truth": [gt_answer]
     }
     d_eval_dataset = Dataset.from_dict(d_eval)
-    result = evaluate(d_eval_dataset, metrics=metrics,llm=llm, embeddings=embeddings)
+    result = evaluate(d_eval_dataset, metrics=metrics, llm=llm, embeddings=embeddings)
     print(result)
     # Iterate over the scores
     context_result = {}
@@ -373,7 +388,8 @@ async def run_scoring_RAGAS(request: ScoreRequest):
     combined_results = request.combined_results
     
     # RAGAS evaluation uses your own LLM and embeddings model
-    llm = ChatNVIDIA( model="meta/llama3-70b-instruct", temperature=0.2, max_tokens=300,)
+    callbacks = get_langsmith_callbacks()
+    llm = ChatNVIDIA(model="meta/llama3-70b-instruct", temperature=0.2, max_tokens=300, callbacks=callbacks)
     embeddings = NVIDIAEmbeddings(model="nvidia/nv-embed-v1")
     llm = LangchainLLMWrapper(langchain_llm=llm)
     embeddings = LangchainEmbeddingsWrapper(embeddings)
@@ -405,7 +421,8 @@ async def run_scoring_RAGAS(request: ScoreRequest):
 def get_llm_as_a_judge_scores(question, answer, llm, QA_PROMPT):
     
     formatted_prompt = QA_PROMPT.format(question=question, answer=answer)
-    result = llm.invoke(formatted_prompt)
+    run_config = get_langsmith_run_config(tags=["evaluation", "llm_judge"])
+    result = llm.invoke(formatted_prompt, config=run_config)
     res = result.content 
     try:
         match = re.search(r'Evaluation:(.*?)Total rating:', res, flags=re.DOTALL)
@@ -430,7 +447,8 @@ async def run_scoring_llm_as_a_judge(request: ScoreRequest):
     combined_results = request.combined_results
     
     #
-    llm = ChatNVIDIA( model="meta/llama3-70b-instruct", temperature=0.2, max_tokens=300,)
+    callbacks = get_langsmith_callbacks()
+    llm = ChatNVIDIA(model="meta/llama3-70b-instruct", temperature=0.2, max_tokens=300, callbacks=callbacks)
     
     
     QA_PROMPT = judge_prompt_template()

@@ -18,6 +18,7 @@ import streamlit as st
 import requests
 import time
 from dotenv import load_dotenv
+from langsmith_logger import log_event
 load_dotenv()
 
 BACKEND_URL = os.getenv("BACKEND_URL")
@@ -34,8 +35,18 @@ if 'documents' not in st.session_state:
 response = requests.get(f"{BACKEND_URL}/ui/get-models/")
 if response.status_code == 200:
     available_models = response.json()["models"]
+    log_event(
+        "frontend.get_models",
+        inputs={"backend_url": BACKEND_URL},
+        outputs={"model_count": len(available_models)},
+    )
 else:
     st.error("Error fetching models.")
+    log_event(
+        "frontend.get_models",
+        inputs={"backend_url": BACKEND_URL},
+        error=f"status_code={response.status_code}",
+    )
     available_models = []
 
 with st.sidebar:
@@ -64,6 +75,11 @@ def app():
         
         response = requests.post(f"{BACKEND_URL}/ui/process-documents/", json={"directory": directory, "model_id": llm})
         if response.status_code == 200:
+            log_event(
+                "frontend.process_documents",
+                inputs={"directory": directory, "model_id": llm},
+                outputs={"status": "started"},
+            )
             progress_bar = st.progress(0)
             progress_text = st.empty()
 
@@ -101,6 +117,11 @@ def app():
             st.success("Saved to knowledge_graph.graphml")
         else:
             st.error("Error processing documents.")
+            log_event(
+                "frontend.process_documents",
+                inputs={"directory": directory, "model_id": llm},
+                error=f"status_code={response.status_code}",
+            )
 
 if __name__ == "__main__":
     app()
