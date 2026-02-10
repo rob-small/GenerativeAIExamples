@@ -51,6 +51,7 @@ with st.sidebar:
 
 with st.sidebar:
     use_kg = st.checkbox("Use knowledge graph")
+    st.caption("Milvus context is always included. Enabling this adds knowledge-graph relations on top.")
 
 user_input = st.chat_input("Can you tell me how research helps users to solve problems?")
 
