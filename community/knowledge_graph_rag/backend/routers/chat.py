@@ -70,6 +70,11 @@ async def chat_endpoint(request: ChatRequest):
     chain = prompt_template | llm | StrOutputParser()
 
 
+    user_input = request.user_input
+    search_handler = SearchHandler(_get_collection_name(), use_bge_m3=True, use_reranker=True)
+    res = search_handler.search_and_rerank(user_input, k=5)
+    context = "Here are the relevant passages from the knowledge base: \n\n" + "\n".join(item.text for item in res)
+
     if request.use_kg:
         data_dir = _get_data_dir()
         KG_GRAPHML_PATH = os.path.join(data_dir, "knowledge_graph.graphml")
@@ -85,19 +90,15 @@ async def chat_endpoint(request: ChatRequest):
 
         if not graph_available:
             return {"assistant_response": "The knowledge graph is currently unavailable. Please try again later."}
-        
+
         llm = ChatNVIDIA(model=request.model_id, callbacks=callbacks)
         graph_chain = GraphQAChain.from_llm(llm=llm, graph=graph, verbose=True, callbacks=callbacks)
-        
+
         prompt_template = ChatPromptTemplate.from_messages(
             [("system", "You are a helpful AI assistant named Envie. You will reply to questions only based on the context that you are provided. If something is out of context, you will refrain from replying and politely decline to respond to the user."), ("user", "{input}")]
         )
         chain = prompt_template | llm | StrOutputParser()
-        search_handler = SearchHandler(_get_collection_name(), use_bge_m3=True, use_reranker=True)
-    
-        user_input = request.user_input
-        use_kg = request.use_kg
-    
+
         try:
             entity_string = llm.invoke(
                 """Return a JSON with a single key 'entities' and list of entities within this user query. Each element in your list MUST BE part of the user's query. Do not provide any explanation. If the returned list is not parseable in Python, you will be heavily penalized. For example, input: 'What is the difference between Apple and Google?' output: ['Apple', 'Google']. Always follow this output format. Here's the user query: """
@@ -105,20 +106,17 @@ async def chat_endpoint(request: ChatRequest):
                 config=run_config,
             )
             entities = json.loads(entity_string.content)['entities']
-            res = search_handler.search_and_rerank(user_input, k=5)
-            context = "Here are the relevant passages from the knowledge base: \n\n" + "\n".join(item.text for item in res)
             all_triplets = []
             for entity in entities:
                 all_triplets.extend(graph_chain.graph.get_entity_knowledge(entity, depth=2))
             context += "\n\nHere are the relationships from the knowledge graph: " + "\n".join(all_triplets)
-            response_data["context"] = context
         except Exception as e:
-            response_data["context"] = "No graph triples were available to extract from the knowledge graph. Always provide a disclaimer if you know the answer to the user's question, since it is not grounded in the knowledge you are provided from the graph."
-    else:
-        response_data["context"] = ""
+            context += "\n\nNo graph triples were available to extract from the knowledge graph. Always provide a disclaimer if you know the answer to the user's question, since it is not grounded in the knowledge you are provided from the graph."
+
+    response_data["context"] = context
 
     full_response = llm.invoke(
-        f"Context: {response_data['context']}\n\nUser query: {request.user_input}" if request.use_kg else request.user_input,
+        f"Context: {response_data['context']}\n\nUser query: {request.user_input}",
         config=run_config,
     )
     response_data["assistant_response"] = full_response if isinstance(full_response, str) else full_response.content
