@@ -19,7 +19,6 @@ import os
 from tqdm import tqdm
 from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-import multiprocessing
 import csv
 import streamlit as st
 from utils.preprocessor import extract_triples
@@ -58,12 +57,12 @@ def process_documents(directory, llm, update_progress=None,triplets=True, chunk_
     if not triplets:
         return documents, []
 
-    multiprocessing.set_start_method('fork', force=True)
-
     progress_bar = st.progress(0)  # Initialize the progress bar
     progress_text = st.empty()  # Create a placeholder for the progress text
 
-    with concurrent.futures.ProcessPoolExecutor() as executor:
+    # Use threads here because `llm` may contain callback/client objects that
+    # are not picklable across process boundaries (e.g., LangSmith internals).
+    with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = [executor.submit(process_document, doc, llm) for doc in documents]
         results = []
         total_futures = len(futures)

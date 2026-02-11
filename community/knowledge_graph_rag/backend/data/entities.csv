@@ -1,65 +1,45 @@
 entity_id,entity_name,entity_type
-0,Accelerator Workshop for GenAI,EVENT
+0,DELL,ORG
 1,Thousands of other organizations,ORG
-2,GenAI,CONCEPT
-3,Business,ORG
-4,Emerging Technologies,CONCEPT
-5,GenAI Readiness Assessment Dimensions,CONCEPT
-6,Accelerator Workshop,ORG/INST
-7,Dell Technologies Services,ORG
-8,Dell Accelerator Workshop for Generative AI,TOOL
-9,GenAI Journey,CONCEPT
-10,full portfolio,METRIC
-11,GenAI solutions,PRODUCT
-12,Dell Inc.,ORG
-13,August 2023,TIME
-14,May 2023,TIME
-15,November 2023,TIME
-16,Dell,ORG
-17,You,PERSON
-18,77%,METRIC
-19,Companies,ORG
-20,Top Challenges,EVENT
-21,GenAI1,CONCEPT
-22,39%,METRIC
-23,expertise and skills,CONCEPT
-24,31%,METRIC
-25,data quality,CONCEPT
-26,Mounting use case opportunities,CONCEPT
-27,Customer operations,CONCEPT
-28,Content creation,CONCEPT
-29,Software development,CONCEPT
-30,Sales & marketing,CONCEPT
-31,Dell Experts,PER
-32,Your Team,ORG
-33,Point of View,CONCEPT
-34,Vision,CONCEPT
-35,AS-IS TO-BE Methodology,CONCEPT
-36,Interviews,TOOL
-37,Existing Environment,CONCEPT
-38,Challenges,CONCEPT
-39,Opportunities,CONCEPT
-40,Consensus,CONCEPT
-41,Executive Overview,CONCEPT
-42,Community,GPE
-43,Largest Impact,EVENT
-44,all,OTHER
-45,Artificial Intelligence Field,FIELD
-46,AI Industry,FIELD
-47,Business Leaders,PERSON
-48,GenAI journey,CONCEPT
-49,GenAI lifecycle,LIFECYCLE
-50,specific business needs,BUSINESS
-51,specific use cases,USECASE
-52,"1 ESG, Beyond the Hype: Real-world investments, use cases and concerns",EVENT
-53,"KPMG, Generative AI: From Buzz to Business Value",EVENT
-54,Accelerator Workshop for GenAI brochure,DOCUMENT
-55,full-stack solution for model customization,TOOL
-56,high value GenAI use cases tailored to your business needs,USE_CASE
-57,GenAI operations,FIELD
-58,internal GenAI skills & capabilities,FIELD
-59,Full-stack scalable GenAI solutions,TOOL
-60,Deep expertise in GenAI & data analytics,FIELD
-61,One provider across the lifecycle,FIELD
-62,Your GenAI objectives,CONCEPT
-63,GenAI impact on business,METRIC
+2,Accelerator Workshop for GenAI,EVENT
+3,Dell Technologies Services,ORG
+4,full portfolio,TOOL
+5,Dell,ORG
+6,Business Leaders,PERSON
+7,Generative AI,CONCEPT
+8,Dell Accelerator Workshop for Generative AI,EVENT
+9,GenAI,CONCEPT
+10,77%,METRIC
+11,Companies,ORG
+12,39%,METRIC
+13,31%,METRIC
+14,Businesses,ORG
+15,Customer operations,FIELD
+16,Content creation,FIELD
+17,Software development,FIELD
+18,Sales & marketing,FIELD
+19,Dell Services for GenAI,PRODUCT
+20,ESG,CONCEPT
+21,"Real-world investments, use cases and concerns",EVENT
+22,From Buzz to Business Value,EVENT
+23,Dell Inc.,ORG
+24,NAN,GPE
+25,Accelerator Workshop,EVENT
+26,GenAI journey,CONCEPT
+27,GenAI lifecycle,CONCEPT
+28,Full-stack scalable GenAI solutions,PRODUCT
+29,Deep expertise in GenAI & data analytics,FIELD
+30,One provider across the lifecycle,SERVICE
+31,Enormous Potential,METRIC
+32,How We Do Business,FIELD
+33,Capitalize On Data,FIELD
+34,AI Industry,FIELD
+35,Customer Operations,FIELD
+36,Content Creation,FIELD
+37,Software Development,FIELD
+38,Top challenges with GenAI,EVENT
+39,expertise and skills,FIELD
+40,data quality,METRIC
+41,use cases,PRODUCT
+42,August 2023,TIME
+43,May 2023,TIME

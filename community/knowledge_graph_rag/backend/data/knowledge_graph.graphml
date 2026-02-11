@@ -1,364 +1,208 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="relation" attr.type="string"/>
 <key id="d0" for="edge" attr.name="relation_id" attr.type="long"/>
-<graph edgedefault="directed"><node id="Accelerator Workshop for GenAI"/>
-<node id="Community"/>
+<graph edgedefault="directed"><node id="DELL"/>
+<node id="NAN"/>
 <node id="Thousands of other organizations"/>
 <node id="Accelerator Workshop"/>
-<node id="GenAI"/>
-<node id="Largest Impact"/>
-<node id="Business"/>
-<node id="all"/>
-<node id="Emerging Technologies"/>
-<node id="GenAI Readiness Assessment Dimensions"/>
-<node id="Artificial Intelligence Field"/>
-<node id="Dell Technologies Services"/>
-<node id="AI Industry"/>
-<node id="Dell Accelerator Workshop for Generative AI"/>
-<node id="GenAI Journey"/>
-<node id="Business Leaders"/>
+<node id="Accelerator Workshop for GenAI"/>
 <node id="GenAI journey"/>
+<node id="Dell Technologies Services"/>
 <node id="full portfolio"/>
 <node id="GenAI lifecycle"/>
-<node id="GenAI solutions"/>
-<node id="specific business needs"/>
-<node id="specific use cases"/>
-<node id="Dell Inc."/>
-<node id="August 2023"/>
-<node id="1 ESG, Beyond the Hype: Real-world investments, use cases and concerns"/>
-<node id="May 2023"/>
-<node id="KPMG, Generative AI: From Buzz to Business Value"/>
-<node id="November 2023"/>
-<node id="Accelerator Workshop for GenAI brochure"/>
-<node id="full-stack solution for model customization"/>
-<node id="high value GenAI use cases tailored to your business needs"/>
-<node id="GenAI operations"/>
-<node id="internal GenAI skills &amp; capabilities"/>
 <node id="Dell"/>
 <node id="Full-stack scalable GenAI solutions"/>
 <node id="Deep expertise in GenAI &amp; data analytics"/>
 <node id="One provider across the lifecycle"/>
-<node id="Customer operations"/>
-<node id="Content creation"/>
-<node id="Software development"/>
+<node id="Business Leaders"/>
+<node id="Generative AI"/>
+<node id="Enormous Potential"/>
+<node id="How We Do Business"/>
+<node id="Capitalize On Data"/>
+<node id="AI Industry"/>
+<node id="Dell Accelerator Workshop for Generative AI"/>
+<node id="GenAI"/>
+<node id="Customer Operations"/>
+<node id="Content Creation"/>
+<node id="Software Development"/>
 <node id="Sales &amp; marketing"/>
-<node id="You"/>
-<node id="Your GenAI objectives"/>
 <node id="77%"/>
-<node id="GenAI impact on business"/>
 <node id="Companies"/>
-<node id="Top Challenges"/>
-<node id="GenAI1"/>
+<node id="Top challenges with GenAI"/>
 <node id="39%"/>
 <node id="expertise and skills"/>
 <node id="31%"/>
 <node id="data quality"/>
-<node id="Mounting use case opportunities"/>
-<node id="Dell Experts"/>
-<node id="Your Team"/>
-<node id="Point of View"/>
-<node id="Vision"/>
-<node id="AS-IS TO-BE Methodology"/>
-<node id="Interviews"/>
-<node id="Existing Environment"/>
-<node id="Challenges"/>
-<node id="Opportunities"/>
-<node id="Consensus"/>
-<node id="Executive Overview"/>
-<edge source="Accelerator Workshop for GenAI" target="Community">
+<node id="Businesses"/>
+<node id="use cases"/>
+<node id="Customer operations"/>
+<node id="Content creation"/>
+<node id="Software development"/>
+<node id="Dell Services for GenAI"/>
+<node id="ESG"/>
+<node id="Real-world investments, use cases and concerns"/>
+<node id="August 2023"/>
+<node id="From Buzz to Business Value"/>
+<node id="May 2023"/>
+<node id="Dell Inc."/>
+<edge source="DELL" target="NAN">
   <data key="d0">0</data>
   <data key="d1">Operate_In</data>
-</edge>
-<edge source="Accelerator Workshop for GenAI" target="GenAI journey">
-  <data key="d0">2</data>
-  <data key="d1">Has</data>
 </edge>
 <edge source="Thousands of other organizations" target="Accelerator Workshop">
   <data key="d0">1</data>
   <data key="d1">Relate_To</data>
 </edge>
-<edge source="Accelerator Workshop" target="GenAI">
-  <data key="d0">1</data>
-  <data key="d1">Relate_To</data>
-</edge>
-<edge source="GenAI" target="Largest Impact">
-  <data key="d0">2</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="GenAI" target="Business">
-  <data key="d0">3</data>
-  <data key="d1">Impact</data>
-</edge>
-<edge source="GenAI" target="Artificial Intelligence Field">
+<edge source="Accelerator Workshop for GenAI" target="GenAI journey">
   <data key="d0">0</data>
   <data key="d1">Operate_In</data>
 </edge>
-<edge source="GenAI" target="full-stack solution for model customization">
-  <data key="d0">10</data>
-  <data key="d1">Implement</data>
-</edge>
-<edge source="GenAI" target="high value GenAI use cases tailored to your business needs">
-  <data key="d0">11</data>
-  <data key="d1">Apply</data>
-</edge>
-<edge source="GenAI" target="GenAI operations">
-  <data key="d0">12</data>
-  <data key="d1">Improve</data>
-</edge>
-<edge source="GenAI" target="internal GenAI skills &amp; capabilities">
-  <data key="d0">13</data>
-  <data key="d1">Extend</data>
-</edge>
-<edge source="GenAI" target="Customer operations">
+<edge source="Dell Technologies Services" target="full portfolio">
   <data key="d0">2</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="GenAI" target="Content creation">
-  <data key="d0">2</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="GenAI" target="Software development">
-  <data key="d0">2</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="GenAI" target="Sales &amp; marketing">
-  <data key="d0">2</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Business" target="all">
-  <data key="d0">4</data>
-  <data key="d1">of</data>
-</edge>
-<edge source="Emerging Technologies" target="GenAI">
-  <data key="d0">1</data>
-  <data key="d1">Relate_To</data>
-</edge>
-<edge source="GenAI Readiness Assessment Dimensions" target="Accelerator Workshop">
-  <data key="d0">5</data>
-  <data key="d1">Participates_In</data>
+  <data key="d1">Provide</data>
 </edge>
 <edge source="Dell Technologies Services" target="AI Industry">
   <data key="d0">0</data>
   <data key="d1">Operate_In</data>
 </edge>
 <edge source="Dell Technologies Services" target="Dell Accelerator Workshop for Generative AI">
-  <data key="d0">6</data>
+  <data key="d0">7</data>
   <data key="d1">Produce</data>
 </edge>
-<edge source="Dell Technologies Services" target="full portfolio">
-  <data key="d0">8</data>
-  <data key="d1">Provide</data>
-</edge>
-<edge source="Dell Technologies Services" target="GenAI">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Dell Accelerator Workshop for Generative AI" target="GenAI Journey">
-  <data key="d0">7</data>
-  <data key="d1">Positive_Impact_On</data>
-</edge>
-<edge source="Dell Accelerator Workshop for Generative AI" target="GenAI">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Dell Accelerator Workshop for Generative AI" target="Your GenAI objectives">
-  <data key="d0">3</data>
-  <data key="d1">Impact</data>
-</edge>
-<edge source="GenAI Journey" target="Business Leaders">
-  <data key="d0">1</data>
-  <data key="d1">Relate_To</data>
-</edge>
-<edge source="GenAI Journey" target="You">
-  <data key="d0">20</data>
-  <data key="d1">Begin</data>
-</edge>
-<edge source="GenAI Journey" target="Point of View">
-  <data key="d0">21</data>
-  <data key="d1">Develop</data>
-</edge>
-<edge source="GenAI Journey" target="Vision">
-  <data key="d0">22</data>
-  <data key="d1">Create</data>
-</edge>
-<edge source="GenAI Journey" target="AS-IS TO-BE Methodology">
-  <data key="d0">23</data>
-  <data key="d1">Utilize</data>
-</edge>
-<edge source="GenAI Journey" target="Interviews">
-  <data key="d0">24</data>
-  <data key="d1">Conduct</data>
-</edge>
-<edge source="GenAI Journey" target="Existing Environment">
-  <data key="d0">25</data>
-  <data key="d1">Review</data>
-</edge>
-<edge source="GenAI Journey" target="Challenges">
-  <data key="d0">26</data>
-  <data key="d1">Identify</data>
-</edge>
-<edge source="GenAI Journey" target="Opportunities">
-  <data key="d0">26</data>
-  <data key="d1">Identify</data>
-</edge>
-<edge source="GenAI Journey" target="Consensus">
-  <data key="d0">27</data>
-  <data key="d1">Drive</data>
-</edge>
-<edge source="GenAI Journey" target="Executive Overview">
-  <data key="d0">28</data>
-  <data key="d1">Synthesize</data>
+<edge source="Dell Technologies Services" target="Dell Services for GenAI">
+  <data key="d0">5</data>
+  <data key="d1">Has</data>
 </edge>
 <edge source="full portfolio" target="GenAI lifecycle">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="GenAI solutions" target="specific business needs">
   <data key="d0">3</data>
-  <data key="d1">Impact</data>
-</edge>
-<edge source="GenAI solutions" target="specific use cases">
-  <data key="d0">3</data>
-  <data key="d1">Impact</data>
-</edge>
-<edge source="Dell Inc." target="Dell Technologies Services">
-  <data key="d0">9</data>
-  <data key="d1">Is_Member_Of</data>
-</edge>
-<edge source="August 2023" target="1 ESG, Beyond the Hype: Real-world investments, use cases and concerns">
-  <data key="d0">2</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="May 2023" target="KPMG, Generative AI: From Buzz to Business Value">
-  <data key="d0">2</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="November 2023" target="Accelerator Workshop for GenAI brochure">
-  <data key="d0">2</data>
-  <data key="d1">Has</data>
+  <data key="d1">Across</data>
 </edge>
 <edge source="Dell" target="Full-stack scalable GenAI solutions">
-  <data key="d0">8</data>
+  <data key="d0">2</data>
   <data key="d1">Provide</data>
 </edge>
 <edge source="Dell" target="Deep expertise in GenAI &amp; data analytics">
-  <data key="d0">14</data>
-  <data key="d1">Have</data>
+  <data key="d0">2</data>
+  <data key="d1">Provide</data>
 </edge>
 <edge source="Dell" target="One provider across the lifecycle">
-  <data key="d0">15</data>
-  <data key="d1">Be</data>
+  <data key="d0">2</data>
+  <data key="d1">Provide</data>
 </edge>
-<edge source="Dell" target="GenAI Journey">
+<edge source="Business Leaders" target="Generative AI">
+  <data key="d0">4</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="Generative AI" target="Enormous Potential">
+  <data key="d0">5</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Generative AI" target="How We Do Business">
+  <data key="d0">6</data>
+  <data key="d1">Positive_Impact_On</data>
+</edge>
+<edge source="Generative AI" target="Capitalize On Data">
+  <data key="d0">6</data>
+  <data key="d1">Positive_Impact_On</data>
+</edge>
+<edge source="Generative AI" target="From Buzz to Business Value">
+  <data key="d0">10</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Dell Accelerator Workshop for Generative AI" target="GenAI">
+  <data key="d0">1</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Dell Accelerator Workshop for Generative AI" target="Customer Operations">
   <data key="d0">0</data>
   <data key="d1">Operate_In</data>
 </edge>
-<edge source="Customer operations" target="Mounting use case opportunities">
-  <data key="d0">1</data>
-  <data key="d1">Relate_To</data>
+<edge source="GenAI" target="AI Industry">
+  <data key="d0">6</data>
+  <data key="d1">Positive_Impact_On</data>
 </edge>
-<edge source="Content creation" target="Mounting use case opportunities">
-  <data key="d0">1</data>
-  <data key="d1">Relate_To</data>
-</edge>
-<edge source="Software development" target="Mounting use case opportunities">
-  <data key="d0">1</data>
-  <data key="d1">Relate_To</data>
-</edge>
-<edge source="Sales &amp; marketing" target="Mounting use case opportunities">
-  <data key="d0">1</data>
-  <data key="d1">Relate_To</data>
-</edge>
-<edge source="You" target="Dell Accelerator Workshop for Generative AI">
+<edge source="GenAI" target="Customer Operations">
   <data key="d0">5</data>
-  <data key="d1">Participates_In</data>
-</edge>
-<edge source="You" target="GenAI Journey">
-  <data key="d0">20</data>
-  <data key="d1">Begin</data>
-</edge>
-<edge source="77%" target="GenAI impact on business">
-  <data key="d0">1</data>
-  <data key="d1">Relate_To</data>
-</edge>
-<edge source="Companies" target="Top Challenges">
-  <data key="d0">16</data>
-  <data key="d1">Face</data>
-</edge>
-<edge source="Top Challenges" target="GenAI1">
-  <data key="d0">2</data>
   <data key="d1">Has</data>
 </edge>
-<edge source="GenAI1" target="Companies">
+<edge source="GenAI" target="Content Creation">
+  <data key="d0">5</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="GenAI" target="Software Development">
+  <data key="d0">5</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="GenAI" target="Sales &amp; marketing">
+  <data key="d0">5</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="GenAI" target="use cases">
+  <data key="d0">7</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="Sales &amp; marketing" target="GenAI">
   <data key="d0">1</data>
   <data key="d1">Relate_To</data>
+</edge>
+<edge source="77%" target="GenAI">
+  <data key="d0">1</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Companies" target="Top challenges with GenAI">
+  <data key="d0">8</data>
+  <data key="d1">Face</data>
 </edge>
 <edge source="39%" target="expertise and skills">
-  <data key="d0">3</data>
-  <data key="d1">Impact</data>
-</edge>
-<edge source="expertise and skills" target="Companies">
-  <data key="d0">17</data>
-  <data key="d1">Negative_Impact_On</data>
+  <data key="d0">5</data>
+  <data key="d1">Has</data>
 </edge>
 <edge source="31%" target="data quality">
-  <data key="d0">3</data>
-  <data key="d1">Impact</data>
+  <data key="d0">5</data>
+  <data key="d1">Has</data>
 </edge>
-<edge source="data quality" target="Companies">
-  <data key="d0">17</data>
-  <data key="d1">Negative_Impact_On</data>
+<edge source="Businesses" target="use cases">
+  <data key="d0">9</data>
+  <data key="d1">Identify and Prioritize</data>
 </edge>
-<edge source="Mounting use case opportunities" target="GenAI1">
+<edge source="Customer operations" target="GenAI">
   <data key="d0">1</data>
   <data key="d1">Relate_To</data>
 </edge>
-<edge source="Dell Experts" target="Your Team">
-  <data key="d0">18</data>
-  <data key="d1">Work_Together_With</data>
+<edge source="Content creation" target="GenAI">
+  <data key="d0">1</data>
+  <data key="d1">Relate_To</data>
 </edge>
-<edge source="Dell Experts" target="You">
-  <data key="d0">19</data>
-  <data key="d1">Help</data>
+<edge source="Software development" target="GenAI">
+  <data key="d0">1</data>
+  <data key="d1">Relate_To</data>
 </edge>
-<edge source="Your Team" target="Dell Experts">
-  <data key="d0">18</data>
-  <data key="d1">Work_Together_With</data>
+<edge source="Dell Services for GenAI" target="ESG">
+  <data key="d0">1</data>
+  <data key="d1">Relate_To</data>
 </edge>
-<edge source="Point of View" target="GenAI Journey">
-  <data key="d0">21</data>
-  <data key="d1">Develop</data>
+<edge source="Dell Services for GenAI" target="Generative AI">
+  <data key="d0">1</data>
+  <data key="d1">Relate_To</data>
 </edge>
-<edge source="Vision" target="GenAI Journey">
-  <data key="d0">22</data>
-  <data key="d1">Create</data>
+<edge source="ESG" target="Real-world investments, use cases and concerns">
+  <data key="d0">10</data>
+  <data key="d1">Announce</data>
 </edge>
-<edge source="AS-IS TO-BE Methodology" target="GenAI Journey">
-  <data key="d0">23</data>
-  <data key="d1">Utilize</data>
+<edge source="Real-world investments, use cases and concerns" target="August 2023">
+  <data key="d0">11</data>
+  <data key="d1">Occur_In</data>
 </edge>
-<edge source="Interviews" target="GenAI Journey">
-  <data key="d0">24</data>
-  <data key="d1">Conduct</data>
+<edge source="From Buzz to Business Value" target="May 2023">
+  <data key="d0">11</data>
+  <data key="d1">Occur_In</data>
 </edge>
-<edge source="Existing Environment" target="GenAI Journey">
-  <data key="d0">25</data>
-  <data key="d1">Review</data>
+<edge source="Dell Inc." target="Dell Technologies Services">
+  <data key="d0">12</data>
+  <data key="d1">Control</data>
 </edge>
-<edge source="Challenges" target="GenAI Journey">
-  <data key="d0">26</data>
-  <data key="d1">Identify</data>
-</edge>
-<edge source="Opportunities" target="GenAI Journey">
-  <data key="d0">26</data>
-  <data key="d1">Identify</data>
-</edge>
-<edge source="Consensus" target="GenAI Journey">
-  <data key="d0">27</data>
-  <data key="d1">Drive</data>
-</edge>
-<edge source="Executive Overview" target="GenAI Journey">
-  <data key="d0">28</data>
-  <data key="d1">Synthesize</data>
+<edge source="Dell Inc." target="Dell Services for GenAI">
+  <data key="d0">12</data>
+  <data key="d1">Control</data>
 </edge>
 </graph></graphml>

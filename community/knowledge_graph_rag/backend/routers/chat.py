@@ -15,6 +15,7 @@
 
 import os
 import json
+import ast
 import networkx as nx
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
@@ -37,6 +38,50 @@ class ChatRequest(BaseModel):
     user_input: str
     use_kg: bool
     model_id: str
+
+
+def _extract_entities_from_llm_output(raw_output: str) -> list[str]:
+    if not raw_output:
+        return []
+
+    parsed = None
+    try:
+        parsed = json.loads(raw_output)
+    except json.JSONDecodeError:
+        try:
+            parsed = ast.literal_eval(raw_output)
+        except (ValueError, SyntaxError):
+            return []
+
+    if isinstance(parsed, dict):
+        entities = parsed.get("entities", [])
+    elif isinstance(parsed, list):
+        entities = parsed
+    else:
+        return []
+
+    if not isinstance(entities, list):
+        return []
+
+    cleaned_entities = []
+    for entity in entities:
+        if isinstance(entity, str):
+            stripped = entity.strip()
+            if stripped:
+                cleaned_entities.append(stripped)
+    return cleaned_entities
+
+
+def _find_entities_in_query(query: str, graph_nodes, limit: int = 8) -> list[str]:
+    query_lower = query.lower()
+    matched_entities = []
+    for candidate in graph_nodes:
+        if isinstance(candidate, str) and candidate.lower() in query_lower:
+            matched_entities.append(candidate)
+            if len(matched_entities) >= limit:
+                return list(dict.fromkeys(matched_entities))
+    return list(dict.fromkeys(matched_entities))
+
 
 def _get_data_dir() -> str:
     data_dir = os.getenv("DATA_DIR")
@@ -101,16 +146,27 @@ async def chat_endpoint(request: ChatRequest):
 
         try:
             entity_string = llm.invoke(
-                """Return a JSON with a single key 'entities' and list of entities within this user query. Each element in your list MUST BE part of the user's query. Do not provide any explanation. If the returned list is not parseable in Python, you will be heavily penalized. For example, input: 'What is the difference between Apple and Google?' output: ['Apple', 'Google']. Always follow this output format. Here's the user query: """
+                """Return only entities from the user query in strict JSON format.
+JSON schema: {"entities": ["entity1", "entity2"]}
+Rules:
+1) Every entity must be an exact span from the user query.
+2) Return only the JSON object, no extra text.
+3) If there are no entities, return {"entities": []}.
+User query: """
                 + user_input,
                 config=run_config,
             )
-            entities = json.loads(entity_string.content)['entities']
+            entities_from_llm = _extract_entities_from_llm_output(entity_string.content)
+            entities_from_query = _find_entities_in_query(user_input, G.nodes())
+            entities = list(dict.fromkeys(entities_from_llm + entities_from_query))
             all_triplets = []
             for entity in entities:
                 all_triplets.extend(graph_chain.graph.get_entity_knowledge(entity, depth=2))
+            all_triplets = list(dict.fromkeys(all_triplets))
+            logger.info("KG query enabled. entities=%s, triplets_found=%s", entities, len(all_triplets))
             context += "\n\nHere are the relationships from the knowledge graph: " + "\n".join(all_triplets)
         except Exception as e:
+            logger.exception("Knowledge graph retrieval failed: %s", str(e))
             context += "\n\nNo graph triples were available to extract from the knowledge graph. Always provide a disclaimer if you know the answer to the user's question, since it is not grounded in the knowledge you are provided from the graph."
 
     response_data["context"] = context
