@@ -81,10 +81,13 @@ If you don't have an API key, follow [these instructions](https://github.com/NVI
 Configure environment files as follows:
 
 - Shared, version-managed settings: `shared.env`
-- Local machine secrets/runtime settings: `backend/.env` and `frontend/.env`
+- Local machine secrets/runtime settings: `.env` (single file at `knowledge_graph_rag/.env`)
 
-`MILVUS_COLLECTION_NAME` and `LANGSMITH_PROJECT` are now read from `shared.env` by both frontend and backend, so you only update them in one place.
-If needed, you can point to a different shared file by setting `KG_RAG_SHARED_ENV=/absolute/path/to/shared.env`.
+Both frontend and backend load `shared.env` first, then `knowledge_graph_rag/.env`.
+Use `.env` for sensitive values that should not be committed to git.
+If needed, you can point to custom files by setting:
+- `KG_RAG_SHARED_ENV=/absolute/path/to/shared.env`
+- `KG_RAG_ENV_FILE=/absolute/path/to/.env`
 
 ### 4. Create a Python virtual environment and activate it
 
