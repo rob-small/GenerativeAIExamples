@@ -1,65 +1,101 @@
 entity_id,entity_name,entity_type
-0,Accelerator Workshop for GenAI,EVENT
-1,Thousands of other organizations,ORG
-2,GenAI,CONCEPT
-3,Business,ORG
-4,Emerging Technologies,CONCEPT
-5,GenAI Readiness Assessment Dimensions,CONCEPT
-6,Accelerator Workshop,ORG/INST
-7,Dell Technologies Services,ORG
-8,Dell Accelerator Workshop for Generative AI,TOOL
-9,GenAI Journey,CONCEPT
-10,full portfolio,METRIC
-11,GenAI solutions,PRODUCT
-12,Dell Inc.,ORG
-13,August 2023,TIME
-14,May 2023,TIME
-15,November 2023,TIME
-16,Dell,ORG
-17,You,PERSON
-18,77%,METRIC
-19,Companies,ORG
-20,Top Challenges,EVENT
-21,GenAI1,CONCEPT
-22,39%,METRIC
-23,expertise and skills,CONCEPT
-24,31%,METRIC
-25,data quality,CONCEPT
-26,Mounting use case opportunities,CONCEPT
-27,Customer operations,CONCEPT
-28,Content creation,CONCEPT
-29,Software development,CONCEPT
-30,Sales & marketing,CONCEPT
-31,Dell Experts,PER
-32,Your Team,ORG
-33,Point of View,CONCEPT
-34,Vision,CONCEPT
-35,AS-IS TO-BE Methodology,CONCEPT
-36,Interviews,TOOL
-37,Existing Environment,CONCEPT
-38,Challenges,CONCEPT
-39,Opportunities,CONCEPT
-40,Consensus,CONCEPT
-41,Executive Overview,CONCEPT
-42,Community,GPE
-43,Largest Impact,EVENT
-44,all,OTHER
-45,Artificial Intelligence Field,FIELD
-46,AI Industry,FIELD
-47,Business Leaders,PERSON
-48,GenAI journey,CONCEPT
-49,GenAI lifecycle,LIFECYCLE
-50,specific business needs,BUSINESS
-51,specific use cases,USECASE
-52,"1 ESG, Beyond the Hype: Real-world investments, use cases and concerns",EVENT
-53,"KPMG, Generative AI: From Buzz to Business Value",EVENT
-54,Accelerator Workshop for GenAI brochure,DOCUMENT
-55,full-stack solution for model customization,TOOL
-56,high value GenAI use cases tailored to your business needs,USE_CASE
-57,GenAI operations,FIELD
-58,internal GenAI skills & capabilities,FIELD
-59,Full-stack scalable GenAI solutions,TOOL
-60,Deep expertise in GenAI & data analytics,FIELD
-61,One provider across the lifecycle,FIELD
-62,Your GenAI objectives,CONCEPT
-63,GenAI impact on business,METRIC
+0,Duke Energy,ORG
+1,your account(s),GPE
+2,Payment,EVENT
+3,Landlord Experience Quick Start Guide,DOC
+4,Rate Analysis tool,TOOL
+5,Duke Energy Corporation,ORG
+6,your profile,PERSON
+7,properties,PRODUCT
+8,your properties,PRODUCT
+9,Revert-to-Owner program,PRODUCT
+10,Existing accounts,PERSON
+11,Dashboard,TOOL
+12,Account,ORG
+13,Balance Due window,TOOL
+14,Landlord,PERSON
+15,Property,GPE
+16,Active Tenant,ORG
+17,Services,ORG
+18,Add New Property,PRODUCT
+19,Revert-to-Owner,ORG/GOV
+20,Duke Energy Foundation,ORG
+21,You,PERSON
+22,Your Profile,INSTITUTION
+23,Phone Numbers,FIELD
+24,Email Addresses,FIELD
+25,Duke Energy Florida,ORG
+26,Duke Energy Indiana,ORG
+27,Duke Energy Progress,ORG
+28,13800 Megawatts,METRIC
+29,Duke Energy Ohio/Kentucky,ORG
+30,Natural Gas Transmission and Distribution Pipelines,INFRA
+31,Natural Gas Service Lines,INFRA
+32,Duke Energy Carolinas,ORG/SUB
+33,Energy Usage,FIELD
+34,Usage Details,FIELD
+35,Snapshots of Time,FIELD
+36,Daily Snapshot,FIELD
+37,Piedmont Natural Gas,ORG
+38,Electric Utilities,INSTITUTION
+39,Natural Gas Utilities,INSTITUTION
+40,Landlord Experience,CONCEPT
+41,Business Customer Service,SERVICE
+42,North Carolina,GPE
+43,Revert-to-Owner (RTO) program,PROGRAM
+44,Getting Started,SECTION
+45,Manage Your Properties,SECTION
+46,Usage and Rate Analysis,TOOL
+47,Energy Sector,SECTOR
+48,RTO,ORG/REG
+49,No,GPE
+50,Home experience,PRODUCT
+51,Individual Account or Portfolio,GPE
+52,Bills,PRODUCT
+53,Landlord Experience QUICK START GUIDE,DOCUMENT
+54,Active Owner,ORG
+55,Service Turn Off,TOOL
+56,Nonpayment,METRIC
+57,Select Services,ORG
+58,Property Address,GPE
+59,more than $30 million annually,METRIC
+60,Duke Energy shareholders,ORG
+61,Main Profile,INSTITUTION
+62,10,METRIC
+63,Florida,GPE
+64,12500 Megawatts,METRIC
+65,2 Million Customers,PERSON
+66,Indiana,GPE
+67,6800 Megawatts,METRIC
+68,920000 Customers,PERSON
+69,South Carolina,GPE
+70,Energy Capacity,CONCEPT
+71,Electricity,PRODUCT
+72,1.8 Million Customers,METRIC
+73,Ohio and Kentucky,GPE
+74,Electric Service,SERVICE
+75,Natural Gas Service,SERVICE
+76,"36,300 miles",METRIC
+77,"29,700 miles",METRIC
+78,"20,800 megawatts",CAPACITY
+79,2.9 million customers,CUSTOMERS
+80,North Carolina and South Carolina,GPE
+81,Graphical Views,FIELD
+82,Yearly Snapshot,FIELD
+83,Monthly Snapshot,FIELD
+84,Weekly Snapshot,FIELD
+85,30-minute Increment,FIELD
+86,15-minute Increment,FIELD
+87,Spreadsheet Formats,FIELD
+88,Tennessee,GPE
+89,1.2 Million,METRIC
+90,No. 1 Spot,METRIC
+91,Customer Satisfaction,CONCEPT
+92,Residential Natural Gas Service,TOOL
+93,Ohio,GPE
+94,Kentucky,GPE
+95,8.6 Million Customers,METRIC
+96,1.7 Million Customers,METRIC
+97,"Approximately 55,100 Megawatts of Energy Capacity",METRIC
+98,Fortune 150,METRIC
+99,America’s Largest Energy Holding Companies,METRIC

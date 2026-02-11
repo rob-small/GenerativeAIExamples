@@ -1,123 +1,751 @@
 id,content
-0,"Dell Technologies Services
+0,"Duke Energy Landlord Experience QUICK START GUIDE
 
-Accelerate the power of AI for your data
+The Duke Energy online Landlord Experience is designed for landlords and property managers to take care of their energy needs as quickly and conveniently as possible by:
 
-Dell Accelerator Workshop for Generative AI is the first step in achieving a successful journey into GenAI
+Streamlining the bill pay process • Managing their properties related to tenant move-ins and move-outs • Efficiently keeping the right people in the know on energy-related matters, like outages • Tracking and managing energy usage and costs
 
-BUSINESS LEADERS ARE PRIORITIZING GENERATIVE AI"
-1,"BUSINESS LEADERS ARE PRIORITIZING GENERATIVE AI
+TABLE OF CONTENTS"
+1,"TABLE OF CONTENTS
 
-Achieve tangible value and breakthrough transformation Generative AI (GenAI) has enormous potential for how we do business and capitalize on data, but as with any emerging technology, tangible business value is gained only by leveraging it the right way for the unique demands of your business. Challenges are mounting around how to prioritize use cases, determine technical feasibility and maximize business value."
-2,"Top challenges companies face with GenAI1
+Getting Started . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 – Registration Existing Users New Users – Dashboard
 
-39% 31%
+Manage Your Properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 – Manage Properties Dashboard – Adding New Properties to Your Profile – Enroll/Unenroll in Revert-to-Owner – Start or Stop Service to a Property"
+2,"Streamline Bill Payment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 – Pay My Bills Page – Making Digital Payments – Billing and Payment Notifications – Billing and Payment Programs – Billing and Payment Activity
 
-expertise and skills
+Stay in the Know . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 – Billing, Payment, Outage and Service Notifications"
+3,"Manage Energy Usage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11 – View and Download Energy Data – Compare Business Rate Options
 
-data quality
+Duke Energy Landlord Experience QUICK START GUIDE
 
-Mounting use case opportunities need to be prioritized There are a vast number of use cases aligned to GenAI, and it’s critical for businesses to identify and prioritize those use cases that are best aligned to specific business needs.
+GETTING STARTED
 
-Customer operations
+Registration for Existing Online Account Customers
 
-Content creation
+Customers with existing online accounts can sign in using their current credentials and may find their accounts already set up in the Landlord, Business or Home tool ."
+4,"Existing accounts that you have previously set up on a Revert-to-Owner program (to automatically reestablish service in your name when a tenant moves out) may find their accounts already established in the Landlord Experience. In this case, when you log in you will already see “Landlord” as an option for selection. (See Experience Selector to the right.)
 
-Software development
+Existing accounts on Residential rates that were not previously set up on a Revert-to Owner program may be set up in the “Home” experience ."
+5,"Accounts with Nonresidential/Business rates will be
 
-Sales & marketing"
-3,"Customer operations
+found in the Business tool .
 
-Content creation
+Key Points
 
-Software development
+Registered users can manage multiple account types across different experiences using a single sign-in ID – for example, Home, Business and Landlord.
 
-Sales & marketing
+1 . If you have accounts in multiple tools, you will see an experience selector page when signing in (1).
 
-Not sure where to begin in achieving your GenAI objectives? Leverage Dell Accelerator Workshop for Generative AI to start your journey to developing a winning strategy. This half day workshop is a great place to start, helping you to address your readiness in leveraging GenAI across business and IT dimensions.
+2 . You can easily navigate back to an alternate"
+6,"2 . You can easily navigate back to an alternate
 
-77%
+experience by selecting the experience selector icon on the upper right portion of your dashboard within any of the tools (2).
 
-GenAI will have the largest impact on their business of all emerging technologies2"
-4,"77%
+3 . These setups are flexible, and accounts can be moved
 
-GenAI will have the largest impact on their business of all emerging technologies2
+to fit the way you want to work. If you want accounts set up differently, please contact our Business Customer Service team (duke-energy .com/customer-service/business) so we can help make that happen.
 
-DELL ACCELERATOR WORKSHOP FOR GENERATIVE AI
+1
 
-The Accelerator Workshop is a starting point to determining how your business will achieve maximized benefits from GenAI."
-5,What is an Accelerator Workshop? Our half day facilitated workshop discussions draw on our experience working with thousands of other organizations. We focus on the activities required to achieve your desired end state and conclude with next steps to further advance your business and IT strategies.
-6,"Take the first step in your GenAI journey Dell experts, working together with your team, will help you begin to develop a point of view on important GenAI questions and create a vision for your future state. Utilizing our “AS-IS” / “TO-BE” methodology, we will conduct interviews and review the existing environment to identify challenges and opportunities and drive consensus for GenAI, synthesized in an Executive Overview.
+2
 
-Assess current state
+2
 
-Identify challenges in the environment"
-7,"Assess current state
+Duke Energy Landlord Experience QUICK START GUIDE"
+7,"1
 
-Identify challenges in the environment
+2
 
-Define goals and objectives
+2
 
-Establish vision for ideal future state
+Duke Energy Landlord Experience QUICK START GUIDE
 
-Develop an executive roadmap
+Registration for New Users Without an Existing Online Account or Who Want to Add the Landlord Experience to Their Account
 
-Define expected results and benefits"
-8,"Develop an executive roadmap
+1 . Go to duke-energy .com/register .
 
-Define expected results and benefits
+2 . Select Landlord (1) .
 
-GenAI Readiness Assessment Dimensions The Accelerator Workshop is a starting point to determining how your business will achieve maximized benefits from GenAI. We begin to consider the needs for getting your organization ready for GenAI across key priority areas, defining a high-level transformation plan aligned to your strategic vision and architectural principles.
+Choose ‘Yes’ if some or all of your properties are already enrolled in Revert-to-Owner (RTO)."
+8,"Choose ‘Yes’ if some or all of your properties are already enrolled in Revert-to-Owner (RTO).
 
-STRATEGY
+Note: The Revert-to-Owner (RTO) program automatically reestablishes service in your name when a tenant moves out . Different Duke Energy regions have called it by different names previously . Check ‘Yes’ if your accounts have been enrolled in this type of program – even if it had a different name ."
+9,"If you already have properties enrolled in RTO, those properties will be visible in your experience once your profile is established. You will also be able to add additional properties that are not RTO-enrolled .
 
-DATA
+Choose ‘No’ if your properties need to be set up for the
 
-AI MODELS
+first time and/or you are not enrolled in RTO."
+10,"first time and/or you are not enrolled in RTO.
 
-PLATFORM
+Note: If you do not currently have a Revert-to-Owner agreement but want one, you will be asked to add your properties to the Landlord Experience where you can then enroll easily .
 
-PEOPLE
+If you chose Yes:
 
-ADOPTION"
-9,"STRATEGY
 
-DATA
 
-AI MODELS
+Indicate how the previously enrolled RTO account(s) can be found (i.e., Social Security number or federal tax ID).
 
-PLATFORM
+»
 
-PEOPLE
+If SSN is provided, you will be asked to also provide the ZIP code .
 
-ADOPTION
+»"
+11,"»
 
-Help across every step of your GenAI journey The Accelerator Workshop for GenAI is a first step in the journey to achieving tangible business value from Generative AI.
+If SSN is provided, you will be asked to also provide the ZIP code .
 
-Dell Technologies Services provides a full portfolio of options across the GenAI lifecycle to further help you accelerate time to value of high performance GenAI architecture and enable the creation of GenAI solutions aligned to specific business needs and use cases."
-10,"STRATEGY
+»
 
-IMPLEMENT
+If tax ID is provided, you can also provide a service address or your 12-digit account number for one of the properties enrolled in RTO .
 
-ADOPT
+Select the account(s) you wish to register with your
 
-SCALE
+online profile.
 
-Gain consensus on high value GenAI use cases & plot a roadmap to achieve them
+If you are not seeing all of your accounts or require additional assistance, please visit Business Customer Service (duke-energy .com/customer-service/business) so we can help you with set-up.
 
-Prepare data for GenAI & implement full-stack solution for model customization
+1
 
-Apply the platform to high value GenAI use cases tailored to your business needs
+3"
+12,"1
 
-Improve GenAI operations & extend internal GenAI skills & capabilities
+3
 
-Why Dell for Generative AI?
+Duke Energy Landlord Experience QUICK START GUIDE
 
- Full-stack scalable GenAI solutions  Deep expertise in GenAI & data analytics  One provider across the lifecycle"
-11,"Learn More about Dell Services for GenAI
+Dashboard Upon sign-in, you will see a dashboard view of your accounts, enabling quick access to key information and functions, including:
 
-Contact your Dell Technologies Services Seller
+1 . Total balance due based on the individual account or
 
-1 ESG, Beyond the Hype: Real-world investments, use cases and concerns, August 2023. 2 KPMG, Generative AI: From Buzz to Business Value, May 2023
+portfolio of accounts selected (1).
 
-© 2023 Dell Inc. or its subsidiaries. All Rights Reserved. Dell and other trademarks are trademarks of Dell Inc. or its subsidiaries. Other trademarks may be trademarks of their respective owners. November 2023-LC | Accelerator Workshop for GenAI brochure"
+2 . Quick links to navigate to high-frequency transactions and functions such as updating profile settings (2).
+
+3 . Status of recent service requests associated with the
+
+selected account (3)."
+13,"3 . Status of recent service requests associated with the
+
+selected account (3).
+
+This dashboard will default to a preselected view of an individual account or portfolio of accounts .
+
+4 . To change the accounts summarized, select the
+
+appropriate account from the drop-down menu located in the top-right corner (4) .
+
+5 . To see a list of your accounts, select View Bills in the
+
+Balance Due window (5) ."
+14,"5 . To see a list of your accounts, select View Bills in the
+
+Balance Due window (5) .
+
+Note: Most customers will be managing only one portfolio of accounts . This portal is also designed to meet the needs of larger businesses with multiple portfolios and business units . Additional guidance and tips for these customers can be found in a supplemental guide, “Advanced Functions of the Online Business Experience .”
+
+1
+
+3
+
+5
+
+2
+
+4
+
+4
+
+Duke Energy Landlord Experience QUICK START GUIDE"
+15,"1
+
+3
+
+5
+
+2
+
+4
+
+4
+
+Duke Energy Landlord Experience QUICK START GUIDE
+
+MANAGE YOUR PROPERTIES
+
+Manage Properties Dashboard
+
+The Manage Properties dashboard allows you to view a full list of all properties associated with the Landlord Experience. To get to this view, select Accounts in the top menu, and then Manage Properties.
+
+You can view the following details and make the following changes from this page:
+
+Add or remove a property from the Landlord Experience .
+
+View current service status."
+16,"Add or remove a property from the Landlord Experience .
+
+View current service status.
+
+» Active Tenant – Service active in a tenant’s name
+
+» Active Owner – Service active in the owner/
+
+landlord’s name
+
+»
+
+Inactive – No current service active at this property
+
+Manage service
+
+» Turn off service (only in Active Owner service status)
+
+» Turn on service
+
+Enroll/unenroll a property in Revert-to-Owner (RTO).
+
+Manage property information .
+
+» Change a property mailing address"
+17,"Manage property information .
+
+» Change a property mailing address
+
+» View average energy bill for property
+
+» Edit property nickname
+
+» View billing and payment programs in which the property is enrolled (only in Active Owner service status)
+
+5
+
+Duke Energy Landlord Experience QUICK START GUIDE
+
+Adding New Properties to your Landlord Profile To add a property or unit over which you have legal title, follow these steps:"
+18,"1 . Select Services from the top navigation menu and Add New Property – or select Add Property on the Manage Properties page (1).
+
+2 . Search by property address to find and add a new
+
+property (2).
+
+3 . If desired, select to enroll the property in Revert-to- Owner (RTO) (see RTO section for more details) (3).
+
+4 . Review and confirm selections (screen not shown)."
+19,"4 . Review and confirm selections (screen not shown).
+
+Note: If you have trouble finding or adding a property, or you require additional assistance, please contact Business Customer Service (duke-energy .com/customer-service/business) so we can help you with setup.
+
+1
+
+2
+
+3
+
+6
+
+Duke Energy Landlord Experience QUICK START GUIDE"
+20,"1
+
+2
+
+3
+
+6
+
+Duke Energy Landlord Experience QUICK START GUIDE
+
+Start or Stop Service to a Property The Landlord Experience also allows you to start or stop service for eligible properties. Locate the ellipsis (three dots) at the far-right column of each property row to choose:
+
+1 . Turn on Service – Applicable only when the service is
+
+noted as Inactive (1).
+
+2 . Turn off Service – Applicable only when a property is"
+21,"noted as Inactive (1).
+
+2 . Turn off Service – Applicable only when a property is
+
+listed as Active Owner. If the property is listed as Active Tenant, the landlord cannot turn off service to that property (2).
+
+Note: When service is active in tenant’s name, you will not be able to view the name of tenant or see if service has been disconnected for nonpayment .
+
+1
+
+2
+
+7
+
+Duke Energy Landlord Experience QUICK START GUIDE"
+22,"1
+
+2
+
+7
+
+Duke Energy Landlord Experience QUICK START GUIDE
+
+Enroll/Unenroll in Revert-to-Owner The Revert-to-Owner (RTO) agreement is the formal contract into which a landlord enters when wanting service to automatically revert to landlord’s name when a tenant vacates a property . The landlord agrees to take responsibility for charges incurred for the period of time service is active in their name .
+
+Enrolling a property in RTO can occur:
+
+During initial registration/adding a property to the"
+23,"Enrolling a property in RTO can occur:
+
+During initial registration/adding a property to the
+
+Landlord Experience .
+
+On the Manage Properties page using the commands at the end of each property listing (see previous section) or through the ‘Manage Revert to Owner’ feature (1) .
+
+Using the Manage Revert to Owner page to enroll one
+
+or multiple properties at once .
+
+Navigate to the Manage Revert to Owner page by selecting Services and selecting Manage Revert to Owner (RTO)."
+24,"Key points related to RTO enrollment: • By selecting the Enrolled and Not Enrolled tabs you can
+
+see which accounts currently fall into each condition. By selecting accounts with the check box and choosing Enroll or Unenroll as appropriate, you can move your accounts on and off the program (2)."
+25,"You must review the Terms and Conditions of the RTO program and check the box to accept this information (3) . This box serves as the electronic signature acknowledging that you will adhere to all Terms and Conditions of the program (4) .
+
+To enroll properties in RTO, the customer cannot have
+
+a past-due balance on any other accounts .
+
+2
+
+3
+
+4
+
+1
+
+8
+
+Duke Energy Landlord Experience QUICK START GUIDE
+
+STREAMLINE BILL PAYMENT
+
+Pay My Bills Page"
+26,"8
+
+Duke Energy Landlord Experience QUICK START GUIDE
+
+STREAMLINE BILL PAYMENT
+
+Pay My Bills Page
+
+Upon signing in, the total outstanding balance on your account(s) will display in the dark blue frame. This will include all the outstanding billed amounts currently due . Click “View/Pay Bills .”
+
+On the Pay My Bills screen, you can:
+
+1 . Initiate the payment process immediately by clicking
+
+Pay Now (1).
+
+2 . View the detail for any of your accounts by clicking on
+
+them (2)."
+27,"Pay Now (1).
+
+2 . View the detail for any of your accounts by clicking on
+
+them (2).
+
+3 . Select one, multiple or all accounts to pay. The total
+
+will adjust based on the accounts you select. Then Pay Now to initiate payment for the selected accounts (3) ."
+28,"Tip: If your account due dates are spread across the month and you would prefer to align them to one or two different times of the month for easier payment, use Pick Your Due Date to realign accordingly. Then you will be able to select all you want to pay in one transaction going forward.
+
+Making Digital Payments
+
+Once you select Pay Now, you will be guided through the process to pay your bill online, and you will be presented with several options:
+
+Source of Payment:
+
+»"
+29,"Source of Payment:
+
+»
+
+If you are signed in to your online account, you can pay digitally for FREE using a checking or savings account (1).
+
+» You may also choose to pay using the Speed Pay service through a vendor who will charge a fee for business accounts . This does provide the option of paying with a credit or debit card.
+
+Consolidated or Individual Transactions: You also"
+30,"have the option of sending a multi-account payment through your bank as one consolidated transaction or individual transactions for each account. If you want your payments consolidated into one bank transaction, check the Consolidated Payments box as shown (2). If you leave the box unchecked, each bill will process individually through your bank . As soon as your digital payment is processed, it will be immediately reflected in your account balances and your total amount due on the dashboard ."
+31,"3
+
+1
+
+2
+
+2
+
+1
+
+9
+
+Duke Energy Landlord Experience QUICK START GUIDE
+
+Billing and Payment Activity
+
+Easily view up to 24 months of billing and payment history in one consolidated view.
+
+1 . Select Bills to view the invoice amount and due date for individual or groups of accounts, as well as view a PDF version of the monthly bill (1) .
+
+2 . Select Payments to view payments posted and the
+
+status of those payments (2) ."
+32,"2 . Select Payments to view payments posted and the
+
+status of those payments (2) .
+
+Note: If you want to narrow your view to only one account, select that account in the upper-right corner (3) .
+
+Billing and Payment Programs"
+33,"Billing and Payment Programs
+
+Under the Billing tab, you can access programs that align billing and payment to fit your business. Selecting each of the programs below will take you to a page that shows eligibility and enrollment status and allows you to enroll or unenroll in that program for each of your accounts .
+
+Paperless Billing – Move all your billing to this digital portal to eliminate paper bills. You can pull up PDF versions of your bills for the past 24 months at any time ."
+34,"Autopay – Automatically pay your bill with a selected
+
+payment method on the bill due date .
+
+Pick Your Due Date – Set your monthly due date at a time that works best for your business. If you have multiple accounts, align them to the same due date to make bill payment easier .
+
+Budget Billing – Manage your cash flow by leveling out your monthly bills to avoid seasonal highs and lows or spikes caused by unusual weather activity.
+
+1
+
+2
+
+3
+
+10
+
+Duke Energy Landlord Experience QUICK START GUIDE"
+35,"1
+
+2
+
+3
+
+10
+
+Duke Energy Landlord Experience QUICK START GUIDE
+
+STAY IN THE KNOW
+
+Billing, Payment, Outage and Service Notifications
+
+The Business Experience has expanded the number and types of notifications you can configure for your business to bring relevant information to the right people in your company via text, email or automated phone message when:
+
+Your new bill is ready to view
+
+A payment is coming due
+
+A payment has been successfully posted to
+
+your account(s)"
+36,"A payment is coming due
+
+A payment has been successfully posted to
+
+your account(s)
+
+An issue occurred and a payment was not successful
+
+An unplanned outage occurs due to weather or
+
+equipment damage
+
+A planned maintenance outage will occur and we want
+
+to notify you in advance
+
+You’ve made a service request and we have status
+
+updates for you
+
+Under the Accounts tab, choose Preferences and Notifications. Set up your payment notifications in three steps:"
+37,"1 . Update Your Profile: Notification options pull from the phone numbers and email addresses set in your main profile. You can add up to 10 email addresses and 10 phone numbers . Make sure you have updated your profile with the information needed before configuring your notifications (1) .
+
+2 . Select Notification Recipients: Under Billing &"
+38,"2 . Select Notification Recipients: Under Billing &
+
+Payment, configure the combination of notifications that works best for your business by matching any combination of email, text or phone call to any of the addresses/numbers listed in your profile (2) .
+
+3 . Apply Selections to Multiple Accounts (Optional):
+
+For customers with multiple accounts, select the other accounts to which you want the same preferences applied. You can go back and edit individual accounts at any time (3) ."
+39,"A detailed overview of setting your notification preferences can be found on the Business Resources page under Preferences and Notifications – Business Customer Guide .
+
+2
+
+3
+
+1
+
+11
+
+Duke Energy Landlord Experience QUICK START GUIDE
+
+TRACK AND MANAGE ENERGY USAGE
+
+View and Download Usage Data"
+40,"TRACK AND MANAGE ENERGY USAGE
+
+View and Download Usage Data
+
+Under the Energy Usage tab, you can view analytics of your energy usage – including usage details and graphical views – based on various snapshots of time. Choose from yearly, monthly (bill cycle), weekly or daily – down to 30-minute or 15-minute increments .
+
+Downloadable data allows you to export usage (1) to spreadsheet formats to combine data and integrate it with other data points in your organization ."
+41,"Note: These snapshots are of individual accounts and may vary based on the meter type for that individual account .
+
+Compare Business Rate Options
+
+Determine whether your accounts are set up on the most favorable rate for your usage patterns . The rate comparison tool allows you to see the differences available rates could make based on your actual usage .
+
+Navigate to the Rate Analysis tool by selecting Usage and Rate Analysis ."
+42,"Navigate to the Rate Analysis tool by selecting Usage and Rate Analysis .
+
+1 . Select individual meters/accounts to compare rates . Only available and eligible alternative rates will be displayed (1) .
+
+2 . Export the results of the rate analysis to a PDF for
+
+further review (2) .
+
+3 . Call Customer Care or your account executive to
+
+change your rate (3) .
+
+©2024 Duke Energy Corporation 231216-A 9/24
+
+1
+
+2
+
+3
+
+1
+
+12"
+43,"Fast Facts
+
+April 1, 2025
+
+Duke Energy (NYSE: DUK), a Fortune 150 company headquartered in Charlotte, N.C., is one of America’s largest energy holding companies.
+
+The company’s electric utilities serve 8.6 million customers in North Carolina, South Carolina, Florida, Indiana, Ohio and Kentucky, and collectively own approximately 55,100 megawatts of energy capacity. Its natural gas utilities serve 1.7 million customers in North Carolina, South Carolina, Tennessee, Ohio and Kentucky."
+44,"Duke Energy is executing an ambitious energy transition, keeping customer reliability and value at the forefront as it builds a smarter energy future. The company is investing in major electric grid upgrades and cleaner generation, including natural gas, nuclear, renewables and energy storage.
+
+More information is available at duke-energy.com and the Duke Energy News Center."
+45,"More information is available at duke-energy.com and the Duke Energy News Center.
+
+Follow Duke Energy on X, LinkedIn, Instagram and Facebook, and visit illumination for stories about the people and innovations powering our energy transition.
+
+PA
+
+IL
+
+IN
+
+OH
+
+WV
+
+VA
+
+KY
+
+Electric and Gas Utilities Service Areas
+
+TN
+
+NC
+
+SC
+
+MS
+
+AL
+
+GA
+
+FL
+
+FL
+
+MD
+
+NJ
+
+DE
+
+Duke Energy Corporation*
+
+Market Cap
+
+$84 billion
+
+Operating Revenue
+
+$30.3 billion
+
+Assets
+
+$186.3 billion
+
+Employees
+
+26,000"
+46,"$84 billion
+
+Operating Revenue
+
+$30.3 billion
+
+Assets
+
+$186.3 billion
+
+Employees
+
+26,000
+
+Electric Utilities and Infrastructure*
+
+Duke Energy’s Electric Utilities and Infrastructure unit operates primarily through the regulated utilities of Duke Energy Carolinas, Duke Energy Progress, Duke Energy Florida, Duke Energy Indiana and Duke Energy Ohio.
+
+States
+
+NC, SC, FL, IN, OH, KY
+
+Service Area
+
+90,000 square miles with estimated population of 27 million
+
+Electric Generation Capacity (owned)"
+47,"90,000 square miles with estimated population of 27 million
+
+Electric Generation Capacity (owned)
+
+55,100 megawatts
+
+Electric Transmission Power Lines
+
+31,700 miles
+
+Electric Distribution Power Lines
+
+286,600 miles
+
+Total Electric Retail Customers
+
+8.6 million
+
+North Carolina
+
+3.8 million
+
+South Carolina
+
+855,600
+
+Ohio/Kentucky
+
+920,000
+
+Indiana
+
+920,000
+
+Florida
+
+2 million
+
+Gas Utilities and Infrastructure*"
+48,"Ohio/Kentucky
+
+920,000
+
+Indiana
+
+920,000
+
+Florida
+
+2 million
+
+Gas Utilities and Infrastructure*
+
+Duke Energy’s Gas Utilities and Infrastructure unit distributes natural gas primarily through the regulated utilities of Piedmont Natural Gas and Duke Energy Ohio.
+
+Total Natural Gas Customers
+
+1.7 million
+
+North Carolina
+
+816,700
+
+South Carolina
+
+168,800
+
+Tennessee
+
+204,400
+
+Ohio/Kentucky
+
+560,000
+
+Natural Gas Transmission and Distribution Pipelines
+
+36,300 miles
+
+Natural Gas Service Lines"
+49,"Natural Gas Transmission and Distribution Pipelines
+
+36,300 miles
+
+Natural Gas Service Lines
+
+29,700 miles
+
+*All data as of Dec. 31, 2024
+
+Duke Energy Carolinas
+
+Duke Energy Carolinas, a subsidiary of Duke Energy, owns 20,800 megawatts of energy capacity, supplying electricity to 2.9 million residential, commercial and industrial customers across a 24,000-square-mile service area in North Carolina and South Carolina.
+
+Duke Energy Progress"
+50,"Duke Energy Progress
+
+Duke Energy Progress, a subsidiary of Duke Energy, owns 13,800 megawatts of energy capacity, supplying electricity to 1.8 million residential, commercial and industrial customers across a 28,000-square-mile service area in North Carolina and South Carolina.
+
+Duke Energy Florida"
+51,"Duke Energy Florida
+
+Duke Energy Florida, a subsidiary of Duke Energy, owns 12,500 megawatts of energy capacity, supplying electricity to 2 million residential, commercial and industrial customers across a 13,000-square-mile service area in Florida.
+
+Duke Energy Indiana
+
+Duke Energy Indiana, a subsidiary of Duke Energy, owns 6,800 megawatts of energy capacity, supplying electricity to 920,000 customers in a 23,000-square-mile service area, making it Indiana’s largest electric supplier."
+52,"Duke Energy Ohio/Kentucky
+
+Duke Energy Ohio/Kentucky, a subsidiary of Duke Energy, provides electric service to 920,000 residential, commercial and industrial customers in a 3,000-square-mile service area, and natural gas service to 560,000 customers in Ohio and Kentucky.
+
+Duke Energy Foundation"
+53,"Duke Energy Foundation
+
+Duke Energy Foundation provides more than $30 million annually in philanthropic support to meet the needs of communities where Duke Energy customers live and work. The Foundation is funded by Duke Energy shareholders.
+
+Piedmont Natural Gas"
+54,"Piedmont Natural Gas
+
+Piedmont Natural Gas, a subsidiary of Duke Energy, distributes natural gas to more than 1.2 million residential, commercial, industrial and power generation customers in North Carolina, South Carolina and Tennessee. Piedmont Natural Gas earned the No. 1 spot in customer satisfaction with residential natural gas service in the South among large utilities, according to the J.D. Power 2024 U.S. Gas Utility Residential Customer Satisfaction Study."
+55,"More information: piedmontng.com. Follow Piedmont Natural Gas: X, Facebook.
+
+©2025 Duke Energy Corporation 250773 4/25"
