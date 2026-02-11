@@ -22,9 +22,9 @@ from pydantic import BaseModel
 from utils.lc_graph import process_documents, save_triples_to_csvs
 from vectorstore.search import SearchHandler
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
-from dotenv import load_dotenv
+from utils.env_loader import load_backend_env
 from utils.langsmith_setup import get_langsmith_callbacks
-load_dotenv()
+load_backend_env()
 
 
 def _get_data_dir() -> str:

@@ -78,7 +78,13 @@ If you don't have an API key, follow [these instructions](https://github.com/NVI
 
 ### 3. Create a Python virtual environment and activate it
 
-Refer to the .env.example include the data directory to point to data folder you create inside the backend folder: backend/data. Also set the backend URL.
+Configure environment files as follows:
+
+- Shared, version-managed settings: `shared.env`
+- Local machine secrets/runtime settings: `backend/.env` and `frontend/.env`
+
+`MILVUS_COLLECTION_NAME` and `LANGSMITH_PROJECT` are now read from `shared.env` by both frontend and backend, so you only update them in one place.
+If needed, you can point to a different shared file by setting `KG_RAG_SHARED_ENV=/absolute/path/to/shared.env`.
 
 ### 4. Create a Python virtual environment and activate it
 

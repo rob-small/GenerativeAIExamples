@@ -19,8 +19,8 @@ import json
 import time
 import os
 
-from dotenv import load_dotenv
-load_dotenv()
+from env_loader import load_frontend_env
+load_frontend_env()
 
 # Get the backend URL from environment variables
 BACKEND_URL = os.getenv("BACKEND_URL")

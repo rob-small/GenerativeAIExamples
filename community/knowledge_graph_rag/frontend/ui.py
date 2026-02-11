@@ -17,9 +17,9 @@ import os
 import streamlit as st
 import requests
 import time
-from dotenv import load_dotenv
+from env_loader import load_frontend_env
 from langsmith_logger import log_event
-load_dotenv()
+load_frontend_env()
 
 BACKEND_URL = os.getenv("BACKEND_URL")
 MILVUS_COLLECTION_NAME = os.getenv("MILVUS_COLLECTION_NAME", "hybrid_demo3")

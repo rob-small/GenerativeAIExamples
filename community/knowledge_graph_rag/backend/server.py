@@ -15,23 +15,9 @@
 
 import os
 
-def _load_dotenv():
-    env_path = os.path.join(os.path.dirname(__file__), ".env")
-    if not os.path.exists(env_path):
-        return
-    with open(env_path, "r", encoding="utf-8") as f:
-        for raw_line in f:
-            line = raw_line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            key, value = line.split("=", 1)
-            key = key.strip()
-            value = value.strip().strip('"').strip("'")
-            if key and key not in os.environ:
-                os.environ[key] = value
+from utils.env_loader import load_backend_env
 
-
-_load_dotenv()
+load_backend_env()
 
 from utils.langsmith_setup import init_langsmith_env
 init_langsmith_env()

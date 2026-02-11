@@ -18,8 +18,8 @@ import streamlit as st
 import requests
 import pandas as pd
 import json
-from dotenv import load_dotenv
-load_dotenv()
+from env_loader import load_frontend_env
+load_frontend_env()
 
 BACKEND_URL = os.getenv("BACKEND_URL")
 DATA_DIR = os.getenv("DATA_DIR") 
