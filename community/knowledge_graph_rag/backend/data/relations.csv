@@ -2,13 +2,9 @@ relation_id,relation_name
 0,Operate_In
 1,Relate_To
 2,Provide
-3,Across
+3,Has
 4,Impact
-5,Has
-6,Positive_Impact_On
-7,Produce
-8,Face
-9,Identify and Prioritize
-10,Announce
-11,Occur_In
-12,Control
+5,Of
+6,Introduce
+7,Is_Member_Of
+8,Participates_In

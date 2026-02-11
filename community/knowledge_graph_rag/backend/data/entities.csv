@@ -1,45 +1,43 @@
 entity_id,entity_name,entity_type
 0,DELL,ORG
 1,Thousands of other organizations,ORG
-2,Accelerator Workshop for GenAI,EVENT
+2,Dell,ORG
 3,Dell Technologies Services,ORG
-4,full portfolio,TOOL
-5,Dell,ORG
-6,Business Leaders,PERSON
-7,Generative AI,CONCEPT
-8,Dell Accelerator Workshop for Generative AI,EVENT
-9,GenAI,CONCEPT
-10,77%,METRIC
-11,Companies,ORG
-12,39%,METRIC
-13,31%,METRIC
-14,Businesses,ORG
-15,Customer operations,FIELD
-16,Content creation,FIELD
-17,Software development,FIELD
-18,Sales & marketing,FIELD
-19,Dell Services for GenAI,PRODUCT
-20,ESG,CONCEPT
-21,"Real-world investments, use cases and concerns",EVENT
-22,From Buzz to Business Value,EVENT
-23,Dell Inc.,ORG
-24,NAN,GPE
-25,Accelerator Workshop,EVENT
-26,GenAI journey,CONCEPT
-27,GenAI lifecycle,CONCEPT
-28,Full-stack scalable GenAI solutions,PRODUCT
-29,Deep expertise in GenAI & data analytics,FIELD
-30,One provider across the lifecycle,SERVICE
-31,Enormous Potential,METRIC
-32,How We Do Business,FIELD
-33,Capitalize On Data,FIELD
-34,AI Industry,FIELD
-35,Customer Operations,FIELD
-36,Content Creation,FIELD
-37,Software Development,FIELD
-38,Top challenges with GenAI,EVENT
-39,expertise and skills,FIELD
-40,data quality,METRIC
-41,use cases,PRODUCT
-42,August 2023,TIME
-43,May 2023,TIME
+4,Dell Accelerator Workshop for Generative AI,EVENT
+5,GenAI Journey,CONCEPT
+6,GenAI,FIELD
+7,Largest Impact,METRIC
+8,GenAI Readiness Assessment Dimensions,CONCEPT
+9,Accelerator Workshop,EVENT
+10,Dell Inc.,ORG
+11,August 2023,METRIC
+12,May 2023,METRIC
+13,November 2023,METRIC
+14,Business Leaders,PERSON
+15,Generative AI,CONCEPT
+16,Challenges,CONCEPT
+17,NAN,GPE
+18,Full-stack scalable GenAI solutions,SERVICE
+19,Deep expertise in GenAI & data analytics,SERVICE
+20,Generative AI industry,FIELD
+21,AI Industry,FIELD
+22,Business,FIELD
+23,All Emerging Technologies2,GPE
+24,STRATEGY,FIELD
+25,DATA,FIELD
+26,AI MODELS,FIELD
+27,PLATFORM,FIELD
+28,PEOPLE,FIELD
+29,ADOPTION,FIELD
+30,Dell Services for GenAI,PRODUCT
+31,"Beyond the Hype: Real-world investments, use cases and concerns",EVENT
+32,Generative AI: From Buzz to Business Value,EVENT
+33,Accelerator Workshop for GenAI brochure,EVENT
+34,Prioritizing Generative AI,EVENT
+35,Tangible Value,METRIC
+36,Breakthrough Transformation,EVENT
+37,How We Do Business,FIELD
+38,Capitalize on Data,FIELD
+39,How to Prioritize Use Cases,CONCEPT
+40,Determine Technical Feasibility,CONCEPT
+41,Maximize Business Value,CONCEPT
