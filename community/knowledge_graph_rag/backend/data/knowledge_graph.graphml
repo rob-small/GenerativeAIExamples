@@ -2,491 +2,370 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="relation" attr.type="string"/>
 <key id="d0" for="edge" attr.name="relation_id" attr.type="long"/>
 <graph edgedefault="directed"><node id="Duke Energy"/>
-<node id="Landlord Experience"/>
-<node id="Business Customer Service"/>
-<node id="North Carolina"/>
-<node id="Revert-to-Owner (RTO) program"/>
-<node id="your account(s)"/>
-<node id="Payment"/>
-<node id="Landlord Experience Quick Start Guide"/>
-<node id="Getting Started"/>
-<node id="Manage Your Properties"/>
-<node id="Rate Analysis tool"/>
-<node id="Usage and Rate Analysis"/>
-<node id="Duke Energy Corporation"/>
-<node id="Energy Sector"/>
-<node id="your profile"/>
-<node id="RTO"/>
-<node id="properties"/>
-<node id="your properties"/>
-<node id="No"/>
-<node id="Revert-to-Owner program"/>
-<node id="Existing accounts"/>
-<node id="Home experience"/>
-<node id="Dashboard"/>
-<node id="Individual Account or Portfolio"/>
-<node id="Account"/>
-<node id="Balance Due window"/>
-<node id="Bills"/>
-<node id="Landlord Experience QUICK START GUIDE"/>
-<node id="Landlord"/>
-<node id="Property"/>
-<node id="Active Owner"/>
-<node id="Active Tenant"/>
-<node id="Service Turn Off"/>
-<node id="Nonpayment"/>
-<node id="Services"/>
-<node id="Add New Property"/>
-<node id="Select Services"/>
-<node id="Property Address"/>
-<node id="Revert-to-Owner"/>
-<node id="Duke Energy Foundation"/>
-<node id="more than $30 million annually"/>
-<node id="Duke Energy shareholders"/>
-<node id="You"/>
-<node id="Your Profile"/>
-<node id="Phone Numbers"/>
-<node id="Email Addresses"/>
-<node id="Main Profile"/>
-<node id="10"/>
-<node id="Duke Energy Florida"/>
-<node id="Florida"/>
-<node id="12500 Megawatts"/>
-<node id="2 Million Customers"/>
-<node id="Duke Energy Indiana"/>
-<node id="Indiana"/>
-<node id="6800 Megawatts"/>
-<node id="920000 Customers"/>
-<node id="Duke Energy Progress"/>
-<node id="South Carolina"/>
-<node id="13800 Megawatts"/>
-<node id="Energy Capacity"/>
-<node id="Electricity"/>
-<node id="1.8 Million Customers"/>
-<node id="Duke Energy Ohio/Kentucky"/>
-<node id="Ohio and Kentucky"/>
-<node id="Electric Service"/>
-<node id="Natural Gas Service"/>
-<node id="Natural Gas Transmission and Distribution Pipelines"/>
-<node id="36,300 miles"/>
-<node id="Natural Gas Service Lines"/>
-<node id="29,700 miles"/>
-<node id="Duke Energy Carolinas"/>
-<node id="20,800 megawatts"/>
-<node id="2.9 million customers"/>
-<node id="North Carolina and South Carolina"/>
-<node id="Energy Usage"/>
-<node id="Usage Details"/>
-<node id="Graphical Views"/>
-<node id="Snapshots of Time"/>
-<node id="Yearly Snapshot"/>
-<node id="Monthly Snapshot"/>
-<node id="Weekly Snapshot"/>
-<node id="Daily Snapshot"/>
-<node id="30-minute Increment"/>
-<node id="15-minute Increment"/>
-<node id="Spreadsheet Formats"/>
-<node id="Piedmont Natural Gas"/>
-<node id="Tennessee"/>
-<node id="1.2 Million"/>
-<node id="No. 1 Spot"/>
-<node id="Customer Satisfaction"/>
-<node id="Residential Natural Gas Service"/>
-<node id="Ohio"/>
-<node id="Kentucky"/>
-<node id="Electric Utilities"/>
-<node id="8.6 Million Customers"/>
-<node id="Natural Gas Utilities"/>
-<node id="1.7 Million Customers"/>
-<node id="Approximately 55,100 Megawatts of Energy Capacity"/>
-<node id="Fortune 150"/>
-<node id="America’s Largest Energy Holding Companies"/>
-<edge source="Duke Energy" target="Landlord Experience">
+<node id="Remote or Flooded Areas"/>
+<node id="Drones"/>
+<node id="Operational Efficiency"/>
+<node id="Damage Assessment"/>
+<node id="Aerial Strategy"/>
+<node id="drones"/>
+<node id="Environmental Monitoring"/>
+<node id="Confined Space Inspections"/>
+<node id="Inside Substations"/>
+<node id="Nuclear Power Plants"/>
+<node id="Post-Storm Inspection Work"/>
+<node id="handheld thermal imaging device"/>
+<node id="Test Each Section of a Solar Field"/>
+<node id="Federal Aviation Administration (FAA)"/>
+<node id="Hurricane Helene"/>
+<node id="Transmission lines"/>
+<node id="electricity"/>
+<node id="response time"/>
+<node id="transmission line reconstruction"/>
+<node id="Garrett Scott"/>
+<node id="Chief Drone Pilot"/>
+<node id="GPS-tagged damage reports"/>
+<node id="Ground Crews"/>
+<node id="Most Critical Areas"/>
+<node id="Helicopter Fleet"/>
+<node id="Airbus H145 D3"/>
+<node id="Greater Lift Capability"/>
+<node id="Improved Safety Features"/>
+<node id="Storm Response"/>
+<node id="Infrared Cameras"/>
+<node id="Drone Pilots"/>
+<node id="Damaged or Underperforming Solar Panels"/>
+<node id="Technicians"/>
+<node id="Walking the Site"/>
+<node id="Transmission Lines"/>
+<node id="Power Grid"/>
+<node id="Restore Electricity"/>
+<node id="Identify Faulty Panels"/>
+<node id="Solar Fields"/>
+<node id="Faulty Panels"/>
+<node id="Not Converting Sunlight Efficiently"/>
+<node id="Repair"/>
+<node id="crews"/>
+<node id="Helicopter Operations"/>
+<node id="high-definition cameras"/>
+<node id="trained crews"/>
+<node id="real-time data"/>
+<node id="ground crews"/>
+<node id="Coordinated Response"/>
+<node id="Real-Time Data"/>
+<node id="Joey Santella"/>
+<node id="Fly on Weekends"/>
+<node id="Travel Long Distances"/>
+<node id="High-Definition Cameras"/>
+<node id="Trained Crews"/>
+<node id="Power"/>
+<node id="Harper"/>
+<node id="Utility Aviation"/>
+<node id="Blackhawk Helicopters"/>
+<node id="Iraq"/>
+<node id="Afghanistan"/>
+<node id="Justice"/>
+<node id="drone crews"/>
+<node id="state trooper"/>
+<node id="crash-scene mapping"/>
+<node id="Customers"/>
+<node id="shared mission"/>
+<node id="helping customers recover faster"/>
+<node id="Rollins"/>
+<node id="ready to respond"/>
+<node id="hurricane"/>
+<node id="ice storm"/>
+<node id="flood"/>
+<node id="safely"/>
+<node id="quickly"/>
+<node id="efficiently"/>
+<node id="Smarter tools"/>
+<node id="enhanced reliability"/>
+<edge source="Duke Energy" target="Remote or Flooded Areas">
   <data key="d0">0</data>
   <data key="d1">Operate_In</data>
 </edge>
-<edge source="Duke Energy" target="Business Customer Service">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy" target="North Carolina">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy" target="Revert-to-Owner (RTO) program">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy" target="Landlord Experience QUICK START GUIDE">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy" target="Duke Energy Ohio/Kentucky">
+<edge source="Duke Energy" target="Drones">
   <data key="d0">1</data>
   <data key="d1">Has</data>
 </edge>
-<edge source="Duke Energy" target="Duke Energy Carolinas">
-  <data key="d0">23</data>
-  <data key="d1">Subsidiary</data>
-</edge>
-<edge source="Duke Energy" target="South Carolina">
+<edge source="Duke Energy" target="GPS-tagged damage reports">
   <data key="d0">0</data>
   <data key="d1">Operate_In</data>
 </edge>
-<edge source="Duke Energy" target="Florida">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy" target="Indiana">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy" target="Ohio">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy" target="Kentucky">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy" target="Electric Utilities">
+<edge source="Duke Energy" target="Helicopter Fleet">
   <data key="d0">1</data>
   <data key="d1">Has</data>
 </edge>
-<edge source="Duke Energy" target="Natural Gas Utilities">
+<edge source="Duke Energy" target="Storm Response">
+  <data key="d0">0</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Duke Energy" target="Customers">
   <data key="d0">1</data>
   <data key="d1">Has</data>
 </edge>
-<edge source="Duke Energy" target="Approximately 55,100 Megawatts of Energy Capacity">
+<edge source="Duke Energy" target="shared mission">
   <data key="d0">1</data>
   <data key="d1">Has</data>
 </edge>
-<edge source="Duke Energy" target="Fortune 150">
-  <data key="d0">4</data>
-  <data key="d1">Is_Member_Of</data>
-</edge>
-<edge source="Duke Energy" target="America’s Largest Energy Holding Companies">
-  <data key="d0">4</data>
-  <data key="d1">Is_Member_Of</data>
-</edge>
-<edge source="your account(s)" target="Payment">
+<edge source="Duke Energy" target="helping customers recover faster">
   <data key="d0">1</data>
   <data key="d1">Has</data>
 </edge>
-<edge source="Payment" target="your account(s)">
+<edge source="Drones" target="Operational Efficiency">
   <data key="d0">2</data>
-  <data key="d1">Negative_Impact_On</data>
+  <data key="d1">Positive_Impact_On</data>
 </edge>
-<edge source="Landlord Experience Quick Start Guide" target="Getting Started">
+<edge source="Drones" target="Damage Assessment">
   <data key="d0">3</data>
-  <data key="d1">Relate_To</data>
-</edge>
-<edge source="Landlord Experience Quick Start Guide" target="Manage Your Properties">
-  <data key="d0">3</data>
-  <data key="d1">Relate_To</data>
-</edge>
-<edge source="Landlord Experience Quick Start Guide" target="Energy Usage">
-  <data key="d0">24</data>
-  <data key="d1">Inform</data>
-</edge>
-<edge source="Rate Analysis tool" target="Usage and Rate Analysis">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy Corporation" target="Energy Sector">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="your profile" target="RTO">
-  <data key="d0">4</data>
-  <data key="d1">Is_Member_Of</data>
-</edge>
-<edge source="properties" target="RTO">
-  <data key="d0">5</data>
   <data key="d1">Participates_In</data>
 </edge>
-<edge source="your properties" target="No">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Revert-to-Owner program" target="Landlord Experience">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Existing accounts" target="Revert-to-Owner program">
-  <data key="d0">5</data>
-  <data key="d1">Participates_In</data>
-</edge>
-<edge source="Existing accounts" target="Home experience">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Dashboard" target="Individual Account or Portfolio">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Account" target="Individual Account or Portfolio">
+<edge source="Drones" target="Aerial Strategy">
   <data key="d0">4</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Drones" target="Identify Faulty Panels">
+  <data key="d0">18</data>
+  <data key="d1">Use_In</data>
+</edge>
+<edge source="Drones" target="Infrared Cameras">
+  <data key="d0">18</data>
+  <data key="d1">Use_In</data>
+</edge>
+<edge source="drones" target="Environmental Monitoring">
+  <data key="d0">0</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="drones" target="Confined Space Inspections">
+  <data key="d0">0</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="drones" target="Inside Substations">
+  <data key="d0">5</data>
+  <data key="d1">Used_For</data>
+</edge>
+<edge source="drones" target="Nuclear Power Plants">
+  <data key="d0">5</data>
+  <data key="d1">Used_For</data>
+</edge>
+<edge source="drones" target="Post-Storm Inspection Work">
+  <data key="d0">2</data>
+  <data key="d1">Positive_Impact_On</data>
+</edge>
+<edge source="drones" target="Hurricane Helene">
+  <data key="d0">0</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="drones" target="Transmission lines">
+  <data key="d0">7</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="drones" target="response time">
+  <data key="d0">2</data>
+  <data key="d1">Positive_Impact_On</data>
+</edge>
+<edge source="drones" target="transmission line reconstruction">
+  <data key="d0">2</data>
+  <data key="d1">Positive_Impact_On</data>
+</edge>
+<edge source="handheld thermal imaging device" target="Test Each Section of a Solar Field">
+  <data key="d0">5</data>
+  <data key="d1">Used_For</data>
+</edge>
+<edge source="Federal Aviation Administration (FAA)" target="drones">
+  <data key="d0">6</data>
+  <data key="d1">Authorize</data>
+</edge>
+<edge source="Transmission lines" target="electricity">
+  <data key="d0">8</data>
+  <data key="d1">Carry</data>
+</edge>
+<edge source="Garrett Scott" target="Chief Drone Pilot">
+  <data key="d0">9</data>
   <data key="d1">Is_Member_Of</data>
 </edge>
-<edge source="Account" target="Balance Due window">
+<edge source="GPS-tagged damage reports" target="Ground Crews">
+  <data key="d0">10</data>
+  <data key="d1">Help</data>
+</edge>
+<edge source="Ground Crews" target="Most Critical Areas">
+  <data key="d0">11</data>
+  <data key="d1">Navigate_To</data>
+</edge>
+<edge source="Helicopter Fleet" target="Airbus H145 D3">
+  <data key="d0">12</data>
+  <data key="d1">Upgrade</data>
+</edge>
+<edge source="Airbus H145 D3" target="Greater Lift Capability">
   <data key="d0">1</data>
   <data key="d1">Has</data>
 </edge>
-<edge source="Balance Due window" target="Bills">
-  <data key="d0">6</data>
-  <data key="d1">Raise</data>
+<edge source="Airbus H145 D3" target="Improved Safety Features">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
 </edge>
-<edge source="Landlord" target="Property">
-  <data key="d0">7</data>
+<edge source="Infrared Cameras" target="Duke Energy">
+  <data key="d0">13</data>
+  <data key="d1">Used_By</data>
+</edge>
+<edge source="Infrared Cameras" target="Damaged or Underperforming Solar Panels">
+  <data key="d0">15</data>
+  <data key="d1">Identify</data>
+</edge>
+<edge source="Drone Pilots" target="Infrared Cameras">
+  <data key="d0">14</data>
+  <data key="d1">Use</data>
+</edge>
+<edge source="Damaged or Underperforming Solar Panels" target="Technicians">
+  <data key="d0">16</data>
+  <data key="d1">Save</data>
+</edge>
+<edge source="Technicians" target="Walking the Site">
+  <data key="d0">17</data>
+  <data key="d1">Time_Consuming_Task</data>
+</edge>
+<edge source="Technicians" target="Repair">
+  <data key="d0">3</data>
+  <data key="d1">Participates_In</data>
+</edge>
+<edge source="Transmission Lines" target="Power Grid">
+  <data key="d0">0</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Transmission Lines" target="Restore Electricity">
+  <data key="d0">2</data>
+  <data key="d1">Positive_Impact_On</data>
+</edge>
+<edge source="Solar Fields" target="Solar Fields">
+  <data key="d0">19</data>
+  <data key="d1">Locate_In</data>
+</edge>
+<edge source="Faulty Panels" target="Not Converting Sunlight Efficiently">
+  <data key="d0">4</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="crews" target="Helicopter Operations">
+  <data key="d0">0</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Helicopter Operations" target="High-Definition Cameras">
+  <data key="d0">22</data>
   <data key="d1">Control</data>
 </edge>
-<edge source="Property" target="Active Owner">
-  <data key="d0">8</data>
-  <data key="d1">Listed_As</data>
-</edge>
-<edge source="Property" target="Nonpayment">
-  <data key="d0">9</data>
-  <data key="d1">Impact</data>
-</edge>
-<edge source="Property" target="Property Address">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Property" target="Revert-to-Owner">
-  <data key="d0">11</data>
-  <data key="d1">Enroll_In</data>
-</edge>
-<edge source="Active Tenant" target="Service Turn Off">
-  <data key="d0">9</data>
-  <data key="d1">Impact</data>
-</edge>
-<edge source="Services" target="Add New Property">
-  <data key="d0">10</data>
-  <data key="d1">Include</data>
-</edge>
-<edge source="Add New Property" target="Select Services">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Revert-to-Owner" target="RTO">
-  <data key="d0">4</data>
-  <data key="d1">Is_Member_Of</data>
-</edge>
-<edge source="Duke Energy Foundation" target="more than $30 million annually">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Duke Energy Foundation" target="Duke Energy shareholders">
-  <data key="d0">12</data>
-  <data key="d1">Funded_By</data>
-</edge>
-<edge source="Duke Energy Foundation" target="Duke Energy">
-  <data key="d0">4</data>
-  <data key="d1">Is_Member_Of</data>
-</edge>
-<edge source="You" target="Your Profile">
-  <data key="d0">13</data>
-  <data key="d1">Update</data>
-</edge>
-<edge source="Your Profile" target="Phone Numbers">
-  <data key="d0">14</data>
-  <data key="d1">Pull_From</data>
-</edge>
-<edge source="Your Profile" target="Email Addresses">
-  <data key="d0">14</data>
-  <data key="d1">Pull_From</data>
-</edge>
-<edge source="Your Profile" target="10">
-  <data key="d0">16</data>
-  <data key="d1">Limit</data>
-</edge>
-<edge source="Phone Numbers" target="Main Profile">
-  <data key="d0">15</data>
-  <data key="d1">Set_In</data>
-</edge>
-<edge source="Phone Numbers" target="10">
-  <data key="d0">16</data>
-  <data key="d1">Limit</data>
-</edge>
-<edge source="Email Addresses" target="Main Profile">
-  <data key="d0">15</data>
-  <data key="d1">Set_In</data>
-</edge>
-<edge source="Email Addresses" target="10">
-  <data key="d0">16</data>
-  <data key="d1">Limit</data>
-</edge>
-<edge source="Duke Energy Florida" target="Florida">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy Florida" target="12500 Megawatts">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Duke Energy Florida" target="2 Million Customers">
-  <data key="d0">17</data>
-  <data key="d1">Supply</data>
-</edge>
-<edge source="Duke Energy Indiana" target="Indiana">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy Indiana" target="6800 Megawatts">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Duke Energy Indiana" target="920000 Customers">
-  <data key="d0">17</data>
-  <data key="d1">Supply</data>
-</edge>
-<edge source="Duke Energy Progress" target="Duke Energy">
-  <data key="d0">4</data>
-  <data key="d1">Is_Member_Of</data>
-</edge>
-<edge source="Duke Energy Progress" target="North Carolina">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy Progress" target="South Carolina">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy Progress" target="13800 Megawatts">
-  <data key="d0">18</data>
-  <data key="d1">Own</data>
-</edge>
-<edge source="Duke Energy Progress" target="Electricity">
-  <data key="d0">17</data>
-  <data key="d1">Supply</data>
-</edge>
-<edge source="Duke Energy Progress" target="1.8 Million Customers">
-  <data key="d0">19</data>
-  <data key="d1">Supply_To</data>
-</edge>
-<edge source="13800 Megawatts" target="Energy Capacity">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Duke Energy Ohio/Kentucky" target="Duke Energy">
-  <data key="d0">4</data>
-  <data key="d1">Is_Member_Of</data>
-</edge>
-<edge source="Duke Energy Ohio/Kentucky" target="Ohio and Kentucky">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Duke Energy Ohio/Kentucky" target="Electric Service">
-  <data key="d0">20</data>
-  <data key="d1">Provide</data>
-</edge>
-<edge source="Duke Energy Ohio/Kentucky" target="Natural Gas Service">
-  <data key="d0">20</data>
-  <data key="d1">Provide</data>
-</edge>
-<edge source="Natural Gas Transmission and Distribution Pipelines" target="36,300 miles">
-  <data key="d0">21</data>
-  <data key="d1">Length</data>
-</edge>
-<edge source="Natural Gas Service Lines" target="29,700 miles">
-  <data key="d0">21</data>
-  <data key="d1">Length</data>
-</edge>
-<edge source="Duke Energy Carolinas" target="20,800 megawatts">
-  <data key="d0">18</data>
-  <data key="d1">Own</data>
-</edge>
-<edge source="Duke Energy Carolinas" target="Electricity">
-  <data key="d0">17</data>
-  <data key="d1">Supply</data>
-</edge>
-<edge source="Duke Energy Carolinas" target="2.9 million customers">
+<edge source="Helicopter Operations" target="Trained Crews">
   <data key="d0">22</data>
-  <data key="d1">Serve</data>
+  <data key="d1">Control</data>
 </edge>
-<edge source="Duke Energy Carolinas" target="North Carolina and South Carolina">
+<edge source="Helicopter Operations" target="Power">
+  <data key="d0">7</data>
+  <data key="d1">Impact</data>
+</edge>
+<edge source="high-definition cameras" target="Helicopter Operations">
   <data key="d0">0</data>
   <data key="d1">Operate_In</data>
 </edge>
-<edge source="Energy Usage" target="Usage Details">
+<edge source="high-definition cameras" target="Real-Time Data">
   <data key="d0">1</data>
   <data key="d1">Has</data>
 </edge>
-<edge source="Energy Usage" target="Snapshots of Time">
+<edge source="trained crews" target="Helicopter Operations">
+  <data key="d0">0</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="trained crews" target="Real-Time Data">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="real-time data" target="Helicopter Operations">
+  <data key="d0">20</data>
+  <data key="d1">Produce</data>
+</edge>
+<edge source="real-time data" target="Coordinated Response">
+  <data key="d0">2</data>
+  <data key="d1">Positive_Impact_On</data>
+</edge>
+<edge source="ground crews" target="Coordinated Response">
   <data key="d0">3</data>
-  <data key="d1">Relate_To</data>
+  <data key="d1">Participates_In</data>
 </edge>
-<edge source="Energy Usage" target="Spreadsheet Formats">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Usage Details" target="Graphical Views">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Snapshots of Time" target="Yearly Snapshot">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Snapshots of Time" target="Monthly Snapshot">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Snapshots of Time" target="Weekly Snapshot">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Snapshots of Time" target="Daily Snapshot">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Daily Snapshot" target="30-minute Increment">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Daily Snapshot" target="15-minute Increment">
-  <data key="d0">1</data>
-  <data key="d1">Has</data>
-</edge>
-<edge source="Piedmont Natural Gas" target="North Carolina">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Piedmont Natural Gas" target="South Carolina">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Piedmont Natural Gas" target="Tennessee">
-  <data key="d0">0</data>
-  <data key="d1">Operate_In</data>
-</edge>
-<edge source="Piedmont Natural Gas" target="Duke Energy">
-  <data key="d0">4</data>
+<edge source="Joey Santella" target="Helicopter Operations">
+  <data key="d0">9</data>
   <data key="d1">Is_Member_Of</data>
 </edge>
-<edge source="Piedmont Natural Gas" target="1.2 Million">
+<edge source="Joey Santella" target="Fly on Weekends">
+  <data key="d0">21</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Joey Santella" target="Travel Long Distances">
+  <data key="d0">21</data>
+  <data key="d1">Announce</data>
+</edge>
+<edge source="Harper" target="Utility Aviation">
+  <data key="d0">23</data>
+  <data key="d1">Directs</data>
+</edge>
+<edge source="Harper" target="Blackhawk Helicopters">
+  <data key="d0">24</data>
+  <data key="d1">Flew</data>
+</edge>
+<edge source="Harper" target="Iraq">
+  <data key="d0">0</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Harper" target="Afghanistan">
+  <data key="d0">0</data>
+  <data key="d1">Operate_In</data>
+</edge>
+<edge source="Utility Aviation" target="Smarter tools">
   <data key="d0">1</data>
   <data key="d1">Has</data>
 </edge>
-<edge source="Piedmont Natural Gas" target="No. 1 Spot">
+<edge source="Utility Aviation" target="enhanced reliability">
+  <data key="d0">1</data>
+  <data key="d1">Has</data>
+</edge>
+<edge source="Justice" target="drone crews">
   <data key="d0">25</data>
-  <data key="d1">Earned</data>
+  <data key="d1">Coordinates</data>
 </edge>
-<edge source="Piedmont Natural Gas" target="Customer Satisfaction">
-  <data key="d0">3</data>
+<edge source="Justice" target="state trooper">
+  <data key="d0">26</data>
+  <data key="d1">Retired</data>
+</edge>
+<edge source="Justice" target="drones">
+  <data key="d0">27</data>
+  <data key="d1">Used</data>
+</edge>
+<edge source="Justice" target="crash-scene mapping">
+  <data key="d0">28</data>
+  <data key="d1">For</data>
+</edge>
+<edge source="Rollins" target="ready to respond">
+  <data key="d0">29</data>
+  <data key="d1">Is</data>
+</edge>
+<edge source="Rollins" target="hurricane">
+  <data key="d0">4</data>
   <data key="d1">Relate_To</data>
 </edge>
-<edge source="Piedmont Natural Gas" target="Residential Natural Gas Service">
-  <data key="d0">3</data>
+<edge source="Rollins" target="ice storm">
+  <data key="d0">4</data>
   <data key="d1">Relate_To</data>
 </edge>
-<edge source="Electric Utilities" target="8.6 Million Customers">
-  <data key="d0">22</data>
-  <data key="d1">Serve</data>
+<edge source="Rollins" target="flood">
+  <data key="d0">4</data>
+  <data key="d1">Relate_To</data>
 </edge>
-<edge source="Natural Gas Utilities" target="1.7 Million Customers">
-  <data key="d0">22</data>
-  <data key="d1">Serve</data>
+<edge source="Rollins" target="safely">
+  <data key="d0">4</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Rollins" target="quickly">
+  <data key="d0">4</data>
+  <data key="d1">Relate_To</data>
+</edge>
+<edge source="Rollins" target="efficiently">
+  <data key="d0">4</data>
+  <data key="d1">Relate_To</data>
 </edge>
 </graph></graphml>

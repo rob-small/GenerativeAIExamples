@@ -1,101 +1,80 @@
 entity_id,entity_name,entity_type
 0,Duke Energy,ORG
-1,your account(s),GPE
-2,Payment,EVENT
-3,Landlord Experience Quick Start Guide,DOC
-4,Rate Analysis tool,TOOL
-5,Duke Energy Corporation,ORG
-6,your profile,PERSON
-7,properties,PRODUCT
-8,your properties,PRODUCT
-9,Revert-to-Owner program,PRODUCT
-10,Existing accounts,PERSON
-11,Dashboard,TOOL
-12,Account,ORG
-13,Balance Due window,TOOL
-14,Landlord,PERSON
-15,Property,GPE
-16,Active Tenant,ORG
-17,Services,ORG
-18,Add New Property,PRODUCT
-19,Revert-to-Owner,ORG/GOV
-20,Duke Energy Foundation,ORG
-21,You,PERSON
-22,Your Profile,INSTITUTION
-23,Phone Numbers,FIELD
-24,Email Addresses,FIELD
-25,Duke Energy Florida,ORG
-26,Duke Energy Indiana,ORG
-27,Duke Energy Progress,ORG
-28,13800 Megawatts,METRIC
-29,Duke Energy Ohio/Kentucky,ORG
-30,Natural Gas Transmission and Distribution Pipelines,INFRA
-31,Natural Gas Service Lines,INFRA
-32,Duke Energy Carolinas,ORG/SUB
-33,Energy Usage,FIELD
-34,Usage Details,FIELD
-35,Snapshots of Time,FIELD
-36,Daily Snapshot,FIELD
-37,Piedmont Natural Gas,ORG
-38,Electric Utilities,INSTITUTION
-39,Natural Gas Utilities,INSTITUTION
-40,Landlord Experience,CONCEPT
-41,Business Customer Service,SERVICE
-42,North Carolina,GPE
-43,Revert-to-Owner (RTO) program,PROGRAM
-44,Getting Started,SECTION
-45,Manage Your Properties,SECTION
-46,Usage and Rate Analysis,TOOL
-47,Energy Sector,SECTOR
-48,RTO,ORG/REG
-49,No,GPE
-50,Home experience,PRODUCT
-51,Individual Account or Portfolio,GPE
-52,Bills,PRODUCT
-53,Landlord Experience QUICK START GUIDE,DOCUMENT
-54,Active Owner,ORG
-55,Service Turn Off,TOOL
-56,Nonpayment,METRIC
-57,Select Services,ORG
-58,Property Address,GPE
-59,more than $30 million annually,METRIC
-60,Duke Energy shareholders,ORG
-61,Main Profile,INSTITUTION
-62,10,METRIC
-63,Florida,GPE
-64,12500 Megawatts,METRIC
-65,2 Million Customers,PERSON
-66,Indiana,GPE
-67,6800 Megawatts,METRIC
-68,920000 Customers,PERSON
-69,South Carolina,GPE
-70,Energy Capacity,CONCEPT
-71,Electricity,PRODUCT
-72,1.8 Million Customers,METRIC
-73,Ohio and Kentucky,GPE
-74,Electric Service,SERVICE
-75,Natural Gas Service,SERVICE
-76,"36,300 miles",METRIC
-77,"29,700 miles",METRIC
-78,"20,800 megawatts",CAPACITY
-79,2.9 million customers,CUSTOMERS
-80,North Carolina and South Carolina,GPE
-81,Graphical Views,FIELD
-82,Yearly Snapshot,FIELD
-83,Monthly Snapshot,FIELD
-84,Weekly Snapshot,FIELD
-85,30-minute Increment,FIELD
-86,15-minute Increment,FIELD
-87,Spreadsheet Formats,FIELD
-88,Tennessee,GPE
-89,1.2 Million,METRIC
-90,No. 1 Spot,METRIC
-91,Customer Satisfaction,CONCEPT
-92,Residential Natural Gas Service,TOOL
-93,Ohio,GPE
-94,Kentucky,GPE
-95,8.6 Million Customers,METRIC
-96,1.7 Million Customers,METRIC
-97,"Approximately 55,100 Megawatts of Energy Capacity",METRIC
-98,Fortune 150,METRIC
-99,America’s Largest Energy Holding Companies,METRIC
+1,Drones,TOOL
+2,drones,TOOL
+3,handheld thermal imaging device,TOOL
+4,Federal Aviation Administration (FAA),ORG/GOV
+5,Transmission lines,PRODUCT
+6,Garrett Scott,PERSON
+7,GPS-tagged damage reports,TOOL
+8,Ground Crews,PERSON
+9,Helicopter Fleet,PRODUCT
+10,Airbus H145 D3,PRODUCT
+11,Infrared Cameras,TOOL
+12,Drone Pilots,PERSON
+13,Damaged or Underperforming Solar Panels,PRODUCT
+14,Technicians,PERSON
+15,Transmission Lines,CONCEPT
+16,Solar Fields,CONCEPT
+17,Faulty Panels,CONCEPT
+18,crews,PERSON
+19,high-definition cameras,TOOL
+20,trained crews,PERSON
+21,real-time data,METRIC
+22,ground crews,PERSON
+23,Joey Santella,PERSON
+24,Helicopter Operations,ORG
+25,Harper,PERSON
+26,Justice,PERSON
+27,Rollins,PERSON
+28,Utility Aviation,ORG
+29,Remote or Flooded Areas,GPE
+30,Operational Efficiency,METRIC
+31,Damage Assessment,EVENT
+32,Aerial Strategy,CONCEPT
+33,Environmental Monitoring,FIELD
+34,Confined Space Inspections,FIELD
+35,Inside Substations,LOC
+36,Nuclear Power Plants,LOC
+37,Post-Storm Inspection Work,ACTIVITY
+38,Test Each Section of a Solar Field,ACTIVITY
+39,Hurricane Helene,EVENT
+40,electricity,METRIC
+41,response time,TOOL
+42,transmission line reconstruction,PROCESS
+43,Chief Drone Pilot,ROLE
+44,Most Critical Areas,CONCEPT
+45,Greater Lift Capability,METRIC
+46,Improved Safety Features,TOOL
+47,Storm Response,EVENT
+48,Walking the Site,ACTIVITY
+49,Power Grid,INFRA
+50,Restore Electricity,EVENT
+51,Identify Faulty Panels,TOOL
+52,Not Converting Sunlight Efficiently,CONCEPT
+53,Repair,ACT
+54,Coordinated Response,CONCEPT
+55,Real-Time Data,METRIC
+56,Fly on Weekends,EVENT
+57,Travel Long Distances,EVENT
+58,High-Definition Cameras,TOOL
+59,Trained Crews,PERSON
+60,Power,PRODUCT
+61,Blackhawk Helicopters,VEHICLE
+62,Iraq,GPE
+63,Afghanistan,GPE
+64,drone crews,GROUP
+65,state trooper,PERSON
+66,crash-scene mapping,TOOL
+67,Customers,PEOPLE
+68,shared mission,CONCEPT
+69,helping customers recover faster,SERVICE
+70,ready to respond,STATE
+71,hurricane,EVENT
+72,ice storm,EVENT
+73,flood,EVENT
+74,safely,STATE
+75,quickly,STATE
+76,efficiently,STATE
+77,Smarter tools,TOOL
+78,enhanced reliability,STATE
