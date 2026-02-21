@@ -1,109 +1,80 @@
 entity_id,entity_name,entity_type
-0,Mark Zuckerberg,PERSON
-1,Meta,ORG
-2,NVIDIAs Blackwell,PRODUCT
-3,Blackwell GPU,PRODUCT
-4,Google,ORG
-5,Google DeepMind,ORG
-6,Sam Altman,PERSON
-7,OpenAI,ORG
-8,Blackwell,PRODUCT
-9,NVIDIA,ORG
-10,GPU,PRODUCT
-11,Jensen Huang,PERSON
-12,Generative AI,CONCEPT
-13,NVIDIA Blackwell platform,PRODUCT
-14,organizations,ORG
-15,real-time generative AI,TOOL
-16,trillion-parameter large language models,PRODUCT
-17,up to 25x less cost,METRIC
-18,energy consumption,METRIC
-19,Amazon Web Services,ORG
-20,Dell Technologies,ORG
-21,Microsoft,ORG
-22,Oracle,ORG
-23,Tesla,ORG
-24,xAI,ORG
-25,Satya Nadella,PERSON
-26,Advanced Infrastructure,TOOL
-27,GB200 Grace Blackwell Processor,PRODUCT
-28,Datacenters,INSTITUTION
-29,Promise Of AI,CONCEPT
-30,Blackwell GPU architecture,PRODUCT
-31,Transformative technologies,CONCEPT
-32,Industry opportunities,CONCEPT
-33,Grace Blackwell Superchips,PRODUCT
-34,Project Ceiba,EVENT
-35,AWS,ORG/CLOUD
-36,AWS Nitro System,PRODUCT
-37,Michael Dell,PERSON
-38,Next-Generation of Accelerated Products and Services,PRODUCT
-39,Blackwell-architecture GPUs,PRODUCT
-40,2-reticle limit GPU dies,TOOL
-41,Second-Generation Transformer Engine,PRODUCT
-42,New Blackwell GPU,PRODUCT
-43,New Tensor Cores,PRODUCT
-44,TensorRT- LLM Compiler,TOOL
-45,New Accelerators,PRODUCT
-46,open-source Llama models,PRODUCT
-47,AI,CONCEPT
-48,next generation of Meta AI and consumer products,PRODUCT
-49,breakthrough capabilities,CONCEPT
-50,Google Cloud,ORG
-51,future discoveries,CONCEPT
-52,Massive Performance Leaps,METRIC
-53,Deliver Leading-Edge Models,PRODUCT
-54,AI Compute,TOOL
-55,1993,GPE
-56,PC Gaming Market,SECTOR
-57,Computer Graphics,FIELD
-58,Modern AI,FIELD
-59,Industrial Digitalization,FIELD
-60,,Unknown
-61,Industry,SECTOR
-62,Industrial Revolution,CONCEPT
-63,Dynamic Companies,ORG
-64,its predecessor,PRODUCT
-65,Global,GPE
-66,Customers AI Workloads,CONCEPT
-67,NVIDIA GPUs,PRODUCT
-68,Promise Of AI Real,CONCEPT
-69,Organizations,ORG
-70,six transformative technologies,CONCEPT
-71,Data processing,FIELD
-72,Engineering simulation,FIELD
-73,Electronic design automation,FIELD
-74,Computer-aided drug design,FIELD
-75,Quantum computing,FIELD
-76,NVIDIA’s AI research and development,ACTIVITY
-77,advanced virtualization,TOOL
-78,ultra-fast Elastic Fabric Adapter networking,TOOL
-79,Run NVIDIA GPUs,ACTIVITY
-80,Technology Industry,SECTOR
-81,Smarter Systems,CONCEPT
-82,Reliable Systems,CONCEPT
-83,Efficient Systems,CONCEPT
-84,Shaping the Future of Technology,CONCEPT
-85,Customer Innovation,CONCEPT
-86,208 billion transistors,METRIC
-87,Custom-built 4NP TSMC process,TECH
-88,10 TB/second chip-to-chip link,TOOL
-89,"Single, unified GPU",TOOL
-90,New micro-tensor scaling support,TOOL
-91,NVIDIA TensorRT™-LLM and NeMo Megatron frameworks,TOOL
-92,Double support,METRIC
-93,AI Models,CONCEPT
-94,NVLink,TOOL
-95,Resilience Technologies,TOOL
-96,Trillion-Parameter-Scale AI Models,CONCEPT
-97,LLM Inference,CONCEPT
-98,LLM Inference Operating Cost,METRIC
-99,LLM Energy Consumption,METRIC
-100,Breakthroughs in Data Processing,CONCEPT
-101,Engineering Simulation,CONCEPT
-102,Electronic Design Automation,CONCEPT
-103,Computer-Aided Drug Design,CONCEPT
-104,Quantum Computing,CONCEPT
-105,Every Major Cloud Provider,ORG
-106,Server Maker,ORG
-107,Leading AI Company,ORG
+0,Duke Energy,ORG
+1,Drones,TOOL
+2,drones,TOOL
+3,handheld thermal imaging device,TOOL
+4,Federal Aviation Administration (FAA),ORG/GOV
+5,Transmission lines,PRODUCT
+6,Garrett Scott,PERSON
+7,GPS-tagged damage reports,TOOL
+8,Ground Crews,PERSON
+9,Helicopter Fleet,PRODUCT
+10,Airbus H145 D3,PRODUCT
+11,Infrared Cameras,TOOL
+12,Drone Pilots,PERSON
+13,Damaged or Underperforming Solar Panels,PRODUCT
+14,Technicians,PERSON
+15,Transmission Lines,CONCEPT
+16,Solar Fields,CONCEPT
+17,Faulty Panels,CONCEPT
+18,crews,PERSON
+19,high-definition cameras,TOOL
+20,trained crews,PERSON
+21,real-time data,METRIC
+22,ground crews,PERSON
+23,Joey Santella,PERSON
+24,Helicopter Operations,ORG
+25,Harper,PERSON
+26,Justice,PERSON
+27,Rollins,PERSON
+28,Utility Aviation,ORG
+29,Remote or Flooded Areas,GPE
+30,Operational Efficiency,METRIC
+31,Damage Assessment,EVENT
+32,Aerial Strategy,CONCEPT
+33,Environmental Monitoring,FIELD
+34,Confined Space Inspections,FIELD
+35,Inside Substations,LOC
+36,Nuclear Power Plants,LOC
+37,Post-Storm Inspection Work,ACTIVITY
+38,Test Each Section of a Solar Field,ACTIVITY
+39,Hurricane Helene,EVENT
+40,electricity,METRIC
+41,response time,TOOL
+42,transmission line reconstruction,PROCESS
+43,Chief Drone Pilot,ROLE
+44,Most Critical Areas,CONCEPT
+45,Greater Lift Capability,METRIC
+46,Improved Safety Features,TOOL
+47,Storm Response,EVENT
+48,Walking the Site,ACTIVITY
+49,Power Grid,INFRA
+50,Restore Electricity,EVENT
+51,Identify Faulty Panels,TOOL
+52,Not Converting Sunlight Efficiently,CONCEPT
+53,Repair,ACT
+54,Coordinated Response,CONCEPT
+55,Real-Time Data,METRIC
+56,Fly on Weekends,EVENT
+57,Travel Long Distances,EVENT
+58,High-Definition Cameras,TOOL
+59,Trained Crews,PERSON
+60,Power,PRODUCT
+61,Blackhawk Helicopters,VEHICLE
+62,Iraq,GPE
+63,Afghanistan,GPE
+64,drone crews,GROUP
+65,state trooper,PERSON
+66,crash-scene mapping,TOOL
+67,Customers,PEOPLE
+68,shared mission,CONCEPT
+69,helping customers recover faster,SERVICE
+70,ready to respond,STATE
+71,hurricane,EVENT
+72,ice storm,EVENT
+73,flood,EVENT
+74,safely,STATE
+75,quickly,STATE
+76,efficiently,STATE
+77,Smarter tools,TOOL
+78,enhanced reliability,STATE
